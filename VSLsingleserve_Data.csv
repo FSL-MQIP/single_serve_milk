@@ -1,0 +1,810 @@
+plantName,product,milkType,size,dateProcessed,year,dilution,greaterThanLessThan,SPC,countability,flavorScore
+US Dairy Plant I,Core,Whole,½ Gallon,1/7/2013,2013,,,390,E,7.9
+US Dairy Plant Q,Core,Whole,½ Gallon,1/7/2013,2013,,,2900000000,,3.8
+US Dairy Plant AI,Core,Whole,qt,1/8/2013,2013,,,220000,,7.8
+US Dairy Plant D,Core,Whole,½ Gallon,1/9/2013,2013,,,940000000,,0
+US Dairy Plant W,Core,Whole,½ Gallon,2/4/2013,2013,,,330000000,,8.5
+US Dairy Plant F,Core,Whole,½ Gallon,2/4/2013,2013,,,750000000,,6.6
+US Dairy Plant BL,Core,Whole,½ Gallon,2/25/2013,2013,,,21000,,8.5
+US Dairy Plant BK,Core,Whole,½ Gallon,2/25/2013,2013,,,9400000,,7.8
+US Dairy Plant XXXX,Core,Whole,½ Gallon,2/26/2013,2013,,,3000,,8.6
+US Dairy Plant AE,Core,Whole,½ Gallon,3/18/2013,2013,,,220,E,8
+US Dairy Plant BJ,Core,Whole,½ Gallon,3/18/2013,2013,,,520000,,8.3
+US Dairy Plant AF,Core,Whole,½ Gallon,3/18/2013,2013,,,130000,,8.7
+US Dairy Plant AD,Core,Whole,½ Gallon,3/18/2013,2013,,,12000,,8.7
+US Dairy Plant BS,Core,Whole,½ Gallon,3/18/2013,2013,,,22000,,8.5
+US Dairy Plant AE,Single Serve,Whole,½ Pint,3/18/2013,2013,,,200,E,8.4
+US Dairy Plant N,Core,Whole,½ Gallon,4/22/2013,2013,,,180,E,8.6
+US Dairy Plant B,Core,Whole,½ Gallon,4/23/2013,2013,,,26000,,8.5
+US Dairy Plant AH,Core,Whole,½ Gallon,4/22/2013,2013,,,1400000000,,1.5
+US Dairy Plant Z,Core,Whole,½ Gallon,4/22/2013,2013,,,48000,,8.7
+US Dairy Plant A,Core,Whole,½ Gallon,4/23/2013,2013,,,17000,,8.5
+US Dairy Plant Z,Single Serve,Whole,½ Pint,4/23/2013,2013,,,130000,,8.6
+US Dairy Plant AL,Core,Whole,½ Gallon,8/10/2013,2013,2,,17000,E,9.1
+US Dairy Plant I,Core,Whole,½ Gallon,8/12/2013,2013,2,,250000,,8.5
+US Dairy Plant Q,Core,Whole,½ Gallon,8/10/2013,2013,0,,190,E,9
+US Dairy Plant D,Core,Whole,½ Gallon,8/14/2013,2013,6,,29000000,E,1.7
+US Dairy Plant F,Core,Whole,½ Gallon,9/9/2013,2013,0,,26,E,8.6
+US Dairy Plant N,Core,Whole,½ Gallon,10/7/2013,2013,2,,670,,8.9
+US Dairy Plant BK,Core,Whole,½ Gallon,10/7/2013,2013,2,,31,E,8.9
+US Dairy Plant BL,Core,Whole,½ Gallon,10/7/2013,2013,0,,220,E,9.1
+US Dairy Plant B,Core,Whole,½ Gallon,10/7/2013,2013,0,,900,S,8.6
+US Dairy Plant XXXX,Core,Whole,½ Gallon,10/7/2013,2013,5,,220000000,,0
+US Dairy Plant AH,Core,Whole,½ Gallon,10/28/2013,2013,0,,220000,,8.6
+US Dairy Plant Z,Core,Whole,½ Gallon,10/26/2013,2013,2,,1400,,8.9
+US Dairy Plant A,Core,Whole,½ Gallon,10/28/2013,2013,0,,330,E,9.4
+US Dairy Plant U,Core,Whole,½ Gallon,10/29/2013,2013,0,,10,E,9.3
+US Dairy Plant AE,Core,Whole,½ Gallon,1/6/2014,2014,0,,790,,8.9
+US Dairy Plant AE,Single Serve,Whole,½ Pint,1/6/2014,2014,0,,3400,,8.8
+US Dairy Plant BJ,Core,Whole,½ Gallon,1/6/2014,2014,0,,9000,,9
+US Dairy Plant AF,Core,Whole,½ Gallon,1/6/2014,2014,0,,1900,,9
+US Dairy Plant AD,Core,Whole,½ Gallon,1/6/2014,2014,0,,370,E,9.1
+US Dairy Plant BS,Core,Whole,½ Gallon,1/6/2014,2014,0,,180000,,8.5
+US Dairy Plant AL,Core,Whole,Gallon,2/3/2014,2014,6,,4100000000,,0
+US Dairy Plant I,Core,Whole,½ Gallon,2/3/2014,2014,0,,3300,,8.2
+US Dairy Plant Q,Core,Whole,½ Gallon,2/1/2014,2014,0,,130,E,8.8
+US Dairy Plant AI,Core,Whole,qt,2/4/2014,2014,6,,1400000000,,2.3
+US Dairy Plant D,Core,Whole,½ Gallon,2/5/2014,2014,4,,280000000,,0
+US Dairy Plant W,Core,Whole,½ Gallon,3/10/2014,2014,3,,190000000,,8.2
+US Dairy Plant F,Core,Whole,½ Gallon,3/10/2014,2014,0,,640,,8.6
+US Dairy Plant N,Core,Whole,½ Gallon,4/14/2014,2014,0,,290,E,9.1
+US Dairy Plant BK,Core,Whole,½ Gallon,4/14/2014,2014,0,,20,E,9.1
+US Dairy Plant BL,Core,Whole,½ Gallon,4/14/2014,2014,6,,7500000000,,0
+US Dairy Plant B,Core,Whole,½ Gallon,4/14/2014,2014,0,,9300,,9.1
+US Dairy Plant XXXX,Core,Whole,½ Gallon,4/14/2014,2014,0,,960,,8.8
+US Dairy Plant AH,Core,Whole,½ Gallon,5/19/2014,2014,2,,450000,,8.6
+US Dairy Plant A,Core,Whole,½ Gallon,5/19/2014,2014,0,,310,E,8.7
+US Dairy Plant U,Core,Whole,½ Gallon,5/20/2014,2014,0,,17000,,9
+US Dairy Plant AF,Core,Whole,½ Gallon,7/7/2014,2014,,,5900,,9.2
+US Dairy Plant AD,Core,Whole,½ Gallon,7/7/2014,2014,,,1400,,9.1
+US Dairy Plant AL,Core,Whole,½ Gallon,8/16/2014,2014,0,,130,E,8.6
+US Dairy Plant I,Core,Whole,½ Gallon,8/18/2014,2014,0,,610,,8.5
+US Dairy Plant Q,Core,Whole,½ Gallon,8/18/2014,2014,0,,590,,8.5
+US Dairy Plant AI,Core,Whole,qt,8/19/2014,2014,4,,13000000,,8.5
+US Dairy Plant N,Core,Whole,½ Gallon,9/8/2014,2014,0,,20,E,8.9
+US Dairy Plant BK,Core,Whole,½ Gallon,9/8/2014,2014,0,,31,E,9.1
+US Dairy Plant BL,Core,Whole,½ Gallon,9/8/2014,2014,0,,570,,8.9
+US Dairy Plant B,Core,Whole,½ Gallon,9/8/2014,2014,0,,2700,,8.8
+US Dairy Plant W,Core,Whole,½ Gallon,10/7/2014,2014,4,,96000000,,6.4
+US Dairy Plant F,Core,Whole,½ Gallon,10/6/2014,2014,0,,33000,,9.1
+US Dairy Plant AH,Core,Whole,½ Gallon,10/27/2014,2014,0,,81000,,7.2
+US Dairy Plant A,Core,Whole,½ Gallon,10/28/2014,2014,0,,80000,,8.9
+US Dairy Plant U,Core,Whole,½ Gallon,10/28/2014,2014,0,,120,E,9
+US Dairy Plant D,Core,Whole,½ Gallon,10/29/2014,2014,5,,1800000000,,0
+US Dairy Plant AE,Core,Whole,½ Gallon,1/3/2015,2015,0,,530,,9.4
+US Dairy Plant BJ,Core,Whole,½ Gallon,1/5/2015,2015,2,,1900000,,9.1
+US Dairy Plant AF,Core,Whole,½ Gallon,1/5/2015,2015,2,,1400000,,9
+US Dairy Plant AD,Core,Whole,½ Gallon,1/5/2015,2015,0,,92,E,9.2
+US Dairy Plant AL,Core,Whole,½ Gallon,1/29/2015,2015,4,,280000000,,2.2
+US Dairy Plant I,Core,Whole,½ Gallon,2/2/2015,2015,0,,40,E,9
+US Dairy Plant Q,Core,Whole,½ Gallon,2/2/2015,2015,0,,3600,,9.1
+US Dairy Plant AI,Core,Whole,qt,2/3/2015,2015,3,,150000000,,0
+US Dairy Plant BK,Core,Whole,½ Gallon,2/23/2015,2015,0,>,400000,E,5.8
+US Dairy Plant BL,Core,Whole,½ Gallon,2/23/2015,2015,2,,800000,,8.8
+US Dairy Plant B,Core,Whole,½ Gallon,2/23/2015,2015,0,,2000,,8.4
+US Dairy Plant F,Core,Whole,½ Gallon,2/23/2015,2015,3,,61000,E,8.8
+US Dairy Plant N,Core,Whole,½ Gallon,4/6/2015,2015,0,,21000,,8.8
+US Dairy Plant W,Core,Whole,½ Gallon,4/6/2015,2015,3,,180000000,,0
+US Dairy Plant AE,Core,Whole,½ Gallon,7/14/2015,2015,0,,1600,,9.3
+US Dairy Plant BJ,Core,Whole,½ Gallon,7/13/2015,2015,0,,18000,,9.3
+US Dairy Plant AF,Core,Whole,½ Gallon,7/13/2015,2015,3,,82000000,,8.4
+US Dairy Plant AD,Core,Whole,½ Gallon,7/14/2015,2015,0,,930,,9.2
+US Dairy Plant I,Core,Whole,½ Gallon,8/3/2015,2015,2,,2700000,,7.8
+US Dairy Plant AI,Core,Whole,qt,8/4/2015,2015,3,,150000000,,0
+US Dairy Plant N,Core,Whole,½ Gallon,9/15/2015,2015,0,,320,E,8.8
+US Dairy Plant BK,Core,Whole,½ Gallon,9/14/2015,2015,0,,82,E,8.8
+US Dairy Plant BL,Core,Whole,½ Gallon,9/14/2015,2015,2,,2800000,,9.1
+US Dairy Plant B,Core,Whole,½ Gallon,9/15/2015,2015,0,,440,,8.8
+US Dairy Plant W,Core,Whole,½ Gallon,10/5/2015,2015,5,,2000000000,,0
+US Dairy Plant F,Core,Whole,½ Gallon,10/5/2015,2015,3,,130000000,,0
+US Dairy Plant AH,Core,Whole,½ Gallon,10/26/2015,2015,3,,69000000,,0.5
+US Dairy Plant A,Core,Whole,½ Gallon,10/26/2015,2015,0,,1100,,9.3
+US Dairy Plant U,Core,Whole,½ Gallon,10/27/2015,2015,2,,220000,,9.5
+US Dairy Plant D,Core,Whole,½ Gallon,10/28/2015,2015,4,,670000000,,2.3
+US Dairy Plant BJ,Core,Whole,½ Gallon,1/11/2016,2016,0,,82000,,9.3
+US Dairy Plant AD,Core,Whole,½ Gallon,1/12/2016,2016,0,,41,E,9.4
+US Dairy Plant AE,Core,Whole,½ Gallon,1/18/2016,2016,0,,410,,8.3
+US Dairy Plant AL,Core,Whole,½ Gallon,2/6/2016,2016,3,,41000000,,5.5
+US Dairy Plant I,Core,Whole,½ Gallon,2/8/2016,2016,0,,10,E,8.9
+US Dairy Plant Q,Core,Whole,qt,2/8/2016,2016,0,,770,,9.2
+US Dairy Plant AI,Core,Whole,qt,2/9/2016,2016,4,,160000000,,0
+US Dairy Plant N,Core,Whole,½ Gallon,3/15/2016,2016,0,,180,E,9.2
+US Dairy Plant BK,Core,Whole,½ Gallon,3/14/2016,2016,0,,4000,,9.4
+US Dairy Plant BL,Core,Whole,½ Gallon,3/14/2016,2016,0,,61,E,9.2
+US Dairy Plant B,Core,Whole,½ Gallon,3/14/2016,2016,2,,650000,,9.4
+US Dairy Plant W,Core,Whole,½ Gallon,4/18/2016,2016,5,,2200000000,,2.9
+US Dairy Plant F,Core,Whole,½ Gallon,4/18/2016,2016,4,,480000000,,5.2
+US Dairy Plant AH,Core,Whole,½ Gallon,5/23/2016,2016,4,,480000000,,0
+US Dairy Plant A,Core,Whole,½ Gallon,5/24/2016,2016,0,,9700,,9.4
+US Dairy Plant U,Core,Whole,½ Gallon,5/24/2016,2016,0,,430,,9.4
+US Dairy Plant D,Core,Whole,½ Gallon,5/25/2016,2016,0,,10,E,9
+US Dairy Plant I,Core,Whole,½ Gallon,7/11/2016,2016,0,,22000,,7.7
+US Dairy Plant BX ,Core,Whole,½ Gallon,7/11/2016,2016,1,,27000,,8.9
+US Dairy Plant F,Core,Whole,½ Gallon,8/8/2016,2016,4,,390000000,,6.2
+US Dairy Plant U,Core,Whole,½ Gallon,8/9/2016,2016,2,<,1000,M,7.8
+US Dairy Plant D,Core,Whole,½ Gallon,8/10/2016,2016,0,,41,E,8.3
+US Dairy Plant A,Core,Whole,½ Gallon,8/29/2016,2016,0,,2300,,8
+US Dairy Plant BJ,Core,Whole,½ Gallon,8/29/2016,2016,0,,160,E,9.1
+US Dairy Plant AD,Core,Whole,½ Gallon,8/30/2016,2016,0,,930,,7.5
+US Dairy Plant W,Core,Whole,½ Gallon,8/29/2016,2016,0,>,400000,E,8.8
+US Dairy Plant B,Core,Whole,½ Gallon,9/26/2016,2016,0,,2600,,7.4
+US Dairy Plant Q,Core,Whole,qt,9/26/2016,2016,0,,220,E,7.3
+US Dairy Plant AF,Core,Whole,½ Gallon,9/26/2016,2016,2,,17000,E,7
+US Dairy Plant AL,Core,Whole,½ Gallon,9/24/2016,2016,5,,990000000,,3.2
+US Dairy Plant BL,Core,Whole,½ Gallon,10/24/2016,2016,2,,21000000,,6.8
+US Dairy Plant N,Core,Whole,½ Gallon,10/24/2016,2016,0,,410,,8.1
+US Dairy Plant BK,Core,Whole,½ Gallon,10/25/2016,2016,0,,130,E,7.1
+US Dairy Plant AI,Core,Whole,qt,11/1/2016,2016,5,,900000000,,2.2
+US Dairy Plant I,Core,Whole,½ Gallon,1/9/2017,2017,0,,2100,,8.4
+US Dairy Plant Q,Core,Whole,qt,1/9/2017,2017,4,,220000000,,5
+US Dairy Plant AF,Core,Whole,½ Gallon,1/9/2017,2017,0,,40000,,9.3
+US Dairy Plant AD,Core,Whole,½ Gallon,1/10/2017,2017,0,,400,,9.2
+US Dairy Plant AL,Core,Whole,½ Gallon,1/7/2017,2017,3,,34000000,,6.1
+US Dairy Plant B,Core,Whole,½ Gallon,2/6/2017,2017,0,,350,E,9.6
+US Dairy Plant BL,Core,Whole,½ Gallon,2/7/2017,2017,0,,350,E,9.2
+US Dairy Plant D,Core,Whole,½ Gallon,2/8/2017,2017,0,,2800,,8.9
+US Dairy Plant BX ,Core,Whole,½ Gallon,2/6/2017,2017,0,,1600,,9.3
+US Dairy Plant BJ,Core,Whole,½ Gallon,3/13/2017,2017,0,,340,E,9.2
+US Dairy Plant U,Core,Whole,½ Gallon,3/21/2017,2017,0,<,10,E,8.8
+US Dairy Plant F,Core,Whole,½ Gallon,4/9/2017,2017,5,,380000000,,0.2
+US Dairy Plant A,Core,Whole,½ Gallon,5/15/2017,2017,4,,130000000,,0.1
+US Dairy Plant AE,Core,Whole,½ Gallon,5/16/2017,2017,0,,36000,,8.6
+US Dairy Plant BK,Core,Whole,½ Gallon,5/16/2017,2017,0,,10,E,8.6
+US Dairy Plant N,Core,Whole,½ Gallon,5/15/2017,2017,0,,340,E,8.8
+US Dairy Plant I,Core,Whole,½ Gallon,7/10/2017,2017,3,,3900000,,7.8
+US Dairy Plant AD,Core,Whole,½ Gallon,7/11/2017,2017,0,,80,E,9.6
+US Dairy Plant D,Core,Whole,½ Gallon,7/12/2017,2017,4,,100000000,,1.2
+US Dairy Plant BX ,Core,Whole,½ Gallon,7/10/2017,2017,0,,120,E,9.5
+US Dairy Plant B,Core,Whole,½ Gallon,8/7/2017,2017,0,,5000,,9.6
+US Dairy Plant Q,Core,Whole,qt,8/7/2017,2017,0,,640,,9.6
+US Dairy Plant AE,Core,Whole,½ Gallon,8/29/2017,2017,0,>,400000,E,8.1
+US Dairy Plant AE,Single Serve,Whole,½ Pint,8/29/2017,2017,2,,3000,E,8.1
+US Dairy Plant F,Core,Whole,½ Gallon,8/31/2017,2017,2,,920000,,9.2
+US Dairy Plant BK,Core,Whole,½ Gallon,9/5/2017,2017,3,,63000000,,5
+US Dairy Plant BJ,Core,Whole,½ Gallon,9/25/2017,2017,0,,380,E,9.2
+US Dairy Plant AF,Core,Whole,½ Gallon,9/25/2017,2017,0,,1900,,8.6
+US Dairy Plant BL,Core,Whole,½ Gallon,9/25/2017,2017,0,,11000,,9.2
+US Dairy Plant AI,Core,Whole,qt,9/28/2017,2017,4,,260000000,,0.7
+US Dairy Plant N,Core,Whole,½ Gallon,10/23/2017,2017,0,,18000,,8.5
+US Dairy Plant A,Core,Whole,½ Gallon,10/23/2017,2017,0,,20,E,8.4
+US Dairy Plant AL,Core,Whole,½ Gallon,10/21/2017,2017,1,,670000,,8.6
+US Dairy Plant W,Core,Whole,½ Gallon,10/23/2017,2017,4,,58000000,,0.5
+US Dairy Plant I,Core,2%,½ Gallon,1/7/2013,2013,,,340,E,7.6
+US Dairy Plant Q,Core,2%,½ Gallon,1/7/2013,2013,,,310,E,8.4
+US Dairy Plant AI,Core,2%,qt,1/8/2013,2013,,>,40000000,E,4.8
+US Dairy Plant D,Core,2%,½ Gallon,1/9/2013,2013,,,1300000000,,0
+US Dairy Plant I,Single Serve,2%,½ Pint,1/7/2013,2013,,,200,E,6.4
+US Dairy Plant Q,Single Serve,2%,½ Pint,1/7/2013,2013,,,610,,8.2
+US Dairy Plant W,Core,2%,½ Gallon,2/4/2013,2013,,,1300000000,,8.4
+US Dairy Plant F,Core,2%,½ Gallon,2/4/2013,2013,,,86000000,,8.2
+US Dairy Plant W,Single Serve,2%,½ Pint,2/5/2013,2013,,,190000000,,6.8
+US Dairy Plant BL,Core,2%,½ Gallon,2/25/2013,2013,,,12000,,8.3
+US Dairy Plant BK,Core,2%,½ Gallon,2/25/2013,2013,,,6500000,,8.5
+US Dairy Plant XXXX,Core,2%,½ Gallon,2/26/2013,2013,,,500000000,,0
+US Dairy Plant N,Single Serve,2%,½ Pint,2/19/2013,2013,,,92,E,8.9
+US Dairy Plant AE,Core,2%,½ Gallon,3/16/2013,2013,,,3100,,8.4
+US Dairy Plant BJ,Core,2%,½ Gallon,3/18/2013,2013,,,39000,,8.6
+US Dairy Plant AF,Core,2%,½ Gallon,3/18/2013,2013,,,680000000,,5.4
+US Dairy Plant AD,Core,2%,½ Gallon,3/18/2013,2013,,,18000,,8.5
+US Dairy Plant BS,Core,2%,½ Gallon,3/18/2013,2013,,,110000000,,8.6
+US Dairy Plant BJ,Single Serve,2%,½ Pint,3/18/2013,2013,,,48000,,8.4
+US Dairy Plant AF,Single Serve,2%,½ Pint,3/18/2013,2013,,,58000000,,8.3
+US Dairy Plant N,Core,2%,½ Gallon,4/22/2013,2013,,,240,E,8.7
+US Dairy Plant B,Core,2%,½ Gallon,4/23/2013,2013,,,780000000,,8.6
+US Dairy Plant AH,Core,2%,½ Gallon,4/22/2013,2013,,,110000,,9
+US Dairy Plant Z,Core,2%,½ Gallon,4/22/2013,2013,,,14000,,8.3
+US Dairy Plant A,Core,2%,½ Gallon,4/23/2013,2013,,,480000,,8.7
+US Dairy Plant AH,Single Serve,2%,½ Pint,4/22/2013,2013,,,69000000,,5
+US Dairy Plant A,Single Serve,2%,½ Pint,4/23/2013,2013,,,920000000,,8.8
+US Dairy Plant AL,Core,2%,½ Gallon,8/12/2013,2013,5,,11000000,E,0
+US Dairy Plant I,Core,2%,½ Gallon,8/12/2013,2013,4,,12000000,,4.2
+US Dairy Plant I,Single Serve,2%,½ Pint,8/12/2013,2013,1,,110,E,8.5
+US Dairy Plant Q,Core,2%,½ Gallon,8/10/2013,2013,2,,1200,E,8.8
+US Dairy Plant Q,Single Serve,2%,½ Pint,8/12/2013,2013,6,,22000000,E,0
+US Dairy Plant D,Core,2%,½ Gallon,8/14/2013,2013,6,,98000000,E,1.2
+US Dairy Plant W,Single Serve,2%,½ Pint,9/9/2013,2013,6,,120000000,,0
+US Dairy Plant F,Core,2%,½ Gallon,9/9/2013,2013,0,,58,E,6.5
+US Dairy Plant N,Core,2%,½ Gallon,10/7/2013,2013,0,,380,SE,8.6
+US Dairy Plant N,Single Serve,2%,½ Pint,10/7/2013,2013,2,,2000000,,8.6
+US Dairy Plant BK,Core,2%,½ Gallon,10/7/2013,2013,0,<,10,E,8.7
+US Dairy Plant BL,Core,2%,½ Gallon,10/7/2013,2013,2,,12000000,,8.4
+US Dairy Plant B,Core,2%,½ Gallon,10/7/2013,2013,2,,2000,,8.6
+US Dairy Plant XXXX,Core,2%,½ Gallon,10/7/2013,2013,5,,31000000,,5.7
+US Dairy Plant AH,Core,2%,½ Gallon,10/28/2013,2013,0,,560,,8.9
+US Dairy Plant AH,Single Serve,2%,½ Pint,10/27/2013,2013,0,,2500,,8.8
+US Dairy Plant Z,Core,2%,½ Gallon,10/26/2013,2013,2,,11000,,9.3
+US Dairy Plant A,Core,2%,½ Gallon,10/28/2013,2013,0,,290,E,9.3
+US Dairy Plant A,Single Serve,2%,½ Pint,10/28/2013,2013,0,,180,E,7.7
+US Dairy Plant U,Core,2%,½ Gallon,10/29/2013,2013,0,,31,E,9.3
+US Dairy Plant AE,Core,2%,½ Gallon,1/6/2014,2014,0,,260,E,9.1
+US Dairy Plant BJ,Core,2%,½ Gallon,1/6/2014,2014,0,,590,S,9
+US Dairy Plant BJ,Single Serve,2%,½ Pint,1/6/2014,2014,2,,670000,,8.8
+US Dairy Plant AF,Core,2%,½ Gallon,1/6/2014,2014,0,,270,E,8.8
+US Dairy Plant AD,Core,2%,½ Gallon,1/6/2014,2014,0,,290,E,8.8
+US Dairy Plant BS,Core,2%,½ Gallon,1/6/2014,2014,0,,16000,,9.1
+US Dairy Plant AL,Core,2%,½ Gallon,2/3/2014,2014,6,,3200000000,,0
+US Dairy Plant I,Core,2%,½ Gallon,2/3/2014,2014,0,,9800,,8.7
+US Dairy Plant I,Single Serve,2%,½ Pint,2/3/2014,2014,0,,72,E,8.5
+US Dairy Plant Q,Core,2%,½ Gallon,2/1/2014,2014,0,,440,,9
+US Dairy Plant Q,Single Serve,2%,½ Pint,2/3/2014,2014,0,,320,E,8.8
+US Dairy Plant AI,Core,2%,qt,2/4/2014,2014,6,,3500000000,,0
+US Dairy Plant D,Core,2%,½ Gallon,2/5/2014,2014,2,,6800000,,8.4
+US Dairy Plant W,Core,2%,½ Gallon,3/10/2014,2014,2,,1600000,,9
+US Dairy Plant F,Core,2%,½ Gallon,3/10/2014,2014,0,,410,,9
+US Dairy Plant N,Core,2%,½ Gallon,4/14/2014,2014,0,,220,E,8.8
+US Dairy Plant N,Single Serve,2%,½ Pint,4/12/2014,2014,0,,130000,,9.1
+US Dairy Plant BK,Core,2%,½ Gallon,4/14/2014,2014,0,<,10,E,9.1
+US Dairy Plant BL,Core,2%,½ Gallon,4/14/2014,2014,0,,12000,,9.1
+US Dairy Plant B,Core,2%,½ Gallon,4/14/2014,2014,0,,1900,,9.2
+US Dairy Plant XXXX,Core,2%,½ Gallon,4/14/2014,2014,6,,1500000000,,0
+US Dairy Plant AH,Core,2%,½ Gallon,5/19/2014,2014,5,,190000000,,0.8
+US Dairy Plant AH,Single Serve,2%,½ Pint,5/19/2014,2014,4,,130000000,,7.6
+US Dairy Plant AH,Single Serve,2%,½ Pint,5/19/2014,2014,5,,190000000,,6.1
+US Dairy Plant A,Core,2%,½ Gallon,5/19/2014,2014,3,,4900000,,8.7
+US Dairy Plant A,Single Serve,2%,½ Pint,5/19/2014,2014,0,,4000,,7.6
+US Dairy Plant U,Core,2%,½ Gallon,5/20/2014,2014,0,,120,E,9.1
+US Dairy Plant AF,Core,2%,½ Gallon,7/7/2014,2014,,,320,E,9.1
+US Dairy Plant AD,Core,2%,½ Gallon,7/7/2014,2014,,,250,E,9.2
+US Dairy Plant AL,Core,2%,½ Gallon,8/18/2014,2014,1,,19000,,7.7
+US Dairy Plant I,Core,2%,½ Gallon,8/18/2014,2014,4,,11000000,,8
+US Dairy Plant I,Single Serve,2%,½ Pint,8/18/2014,2014,0,,220,E,6.6
+US Dairy Plant Q,Core,2%,½ Gallon,8/18/2014,2014,0,,51,E,8.1
+US Dairy Plant Q,Single Serve,2%,½ Pint,8/18/2014,2014,0,,650,,8.8
+US Dairy Plant AI,Core,2%,qt,8/19/2014,2014,4,,220000,E,8.6
+US Dairy Plant N,Core,2%,½ Gallon,9/8/2014,2014,0,,41,E,9
+US Dairy Plant N,Single Serve,2%,½ Pint,9/2/2014,2014,0,,61,E,8.8
+US Dairy Plant BK,Core,2%,½ Gallon,9/8/2014,2014,3,,4000000,,9
+US Dairy Plant BL,Core,2%,½ Gallon,9/8/2014,2014,0,,4200,,9.1
+US Dairy Plant B,Core,2%,½ Gallon,9/8/2014,2014,0,,2000,,9
+US Dairy Plant W,Core,2%,½ Gallon,10/7/2014,2014,3,,46000000,,5.8
+US Dairy Plant W,Single Serve,2%,½ Pint,10/7/2014,2014,3,,76000000,,0.7
+US Dairy Plant F,Core,2%,½ Gallon,10/5/2014,2014,0,,16000,,8.8
+US Dairy Plant AH,Core,2%,½ Gallon,10/27/2014,2014,2,,1500000,,9
+US Dairy Plant AH,Single Serve,2%,½ Pint,10/27/2014,2014,5,,4600000000,,3
+US Dairy Plant A,Core,2%,½ Gallon,10/27/2014,2014,0,,480000,E,3.6
+US Dairy Plant A,Single Serve,2%,½ Pint,10/27/2014,2014,0,,10000,,7.9
+US Dairy Plant U,Core,2%,½ Gallon,10/28/2014,2014,0,,120,E,9.1
+US Dairy Plant U,Single Serve,2%,½ Pint,10/28/2014,2014,4,,340000000,,0
+US Dairy Plant D,Core,2%,½ Gallon,10/29/2014,2014,6,,820000000,,0.2
+US Dairy Plant AE,Core,2%,½ Gallon,1/3/2015,2015,0,,82,E,9.4
+US Dairy Plant BJ,Core,2%,½ Gallon,1/5/2015,2015,0,,3800,,9
+US Dairy Plant AF,Core,2%,½ Gallon,1/5/2015,2015,0,,92,E,9.4
+US Dairy Plant AD,Core,2%,½ Gallon,1/5/2015,2015,0,,200,E,9.3
+US Dairy Plant AL,Core,2%,½ Gallon,1/31/2015,2015,3,,120000000,,9.1
+US Dairy Plant I,Core,2%,½ Gallon,2/2/2015,2015,0,,20,E,8.9
+US Dairy Plant I,Single Serve,2%,½ Pint,2/2/2015,2015,0,<,10,E,8.8
+US Dairy Plant Q,Core,2%,½ Gallon,2/2/2015,2015,0,,210,E,8.7
+US Dairy Plant Q,Single Serve,2%,½ Pint,2/2/2015,2015,4,,580000000,,0.3
+US Dairy Plant AI,Core,2%,qt,2/3/2015,2015,3,,120000000,,0
+US Dairy Plant BK,Core,2%,½ Gallon,2/23/2015,2015,4,,130000000,,8.2
+US Dairy Plant BL,Core,2%,½ Gallon,2/24/2015,2015,2,,170000,,6.4
+US Dairy Plant B,Core,2%,½ Gallon,2/23/2015,2015,0,,1500,,8.4
+US Dairy Plant F,Core,2%,½ Gallon,2/23/2015,2015,0,,64000,,7.8
+US Dairy Plant N,Core,2%,½ Gallon,4/6/2015,2015,0,,3800,,9.2
+US Dairy Plant N,Single Serve,2%,½ Pint,4/6/2015,2015,4,,370000000,,8.7
+US Dairy Plant W,Core,2%,½ Gallon,4/6/2015,2015,4,,240000000,,8.3
+US Dairy Plant W,Single Serve,2%,½ Pint,4/6/2015,2015,5,,940000000,,9.1
+US Dairy Plant AE,Core,2%,½ Gallon,7/14/2015,2015,0,,580,,9.3
+US Dairy Plant BJ,Core,2%,½ Gallon,7/13/2015,2015,0,,100000,,9.2
+US Dairy Plant AF,Core,2%,½ Gallon,7/13/2015,2015,4,,220000000,,1.7
+US Dairy Plant AD,Core,2%,½ Gallon,7/14/2015,2015,0,,810,,9.3
+US Dairy Plant AL,Core,2%,½ Gallon,8/1/2015,2015,4,,380000000,,7.5
+US Dairy Plant I,Core,2%,½ Gallon,8/3/2015,2015,5,,1700000000,,0
+US Dairy Plant Q,Core,2%,½ Gallon,8/3/2015,2015,4,,99000000,,3.8
+US Dairy Plant AI,Core,2%,qt,8/4/2015,2015,5,,270000000,,0.1
+US Dairy Plant N,Core,2%,½ Gallon,9/15/2015,2015,0,,960,,9
+US Dairy Plant BK,Core,2%,½ Gallon,9/14/2015,2015,0,,20,E,9
+US Dairy Plant BL,Core,2%,½ Gallon,9/14/2015,2015,0,,80000,,8.9
+US Dairy Plant B,Core,2%,½ Gallon,9/15/2015,2015,0,,2800,,8.8
+US Dairy Plant W,Core,2%,½ Gallon,10/6/2015,2015,4,,390000000,,2.4
+US Dairy Plant W,Single Serve,2%,½ Pint,10/5/2015,2015,3,,55000000,,3.2
+US Dairy Plant F,Core,2%,½ Gallon,10/5/2015,2015,2,,470000,,6.5
+US Dairy Plant AH,Core,2%,½ Gallon,10/26/2015,2015,2,,5500000,,9.5
+US Dairy Plant A,Core,2%,½ Gallon,10/26/2015,2015,0,,4300,,9.4
+US Dairy Plant U,Core,2%,½ Gallon,10/27/2015,2015,0,,820,,9.4
+US Dairy Plant D,Core,2%,½ Gallon,10/28/2015,2015,4,,1000000000,,2.5
+US Dairy Plant BJ,Core,2%,½ Gallon,1/11/2016,2016,0,,10000,,9.3
+US Dairy Plant AF,Core,2%,½ Gallon,1/11/2016,2016,0,,330,E,9
+US Dairy Plant AD,Core,2%,½ Gallon,1/12/2016,2016,0,,31,E,9.2
+US Dairy Plant AE,Core,2%,½ Gallon,1/18/2016,2016,3,,21000000,,9
+US Dairy Plant AL,Core,2%,½ Gallon,2/6/2016,2016,3,,78000000,,6.3
+US Dairy Plant I,Core,2%,½ Gallon,2/8/2016,2016,0,,890,,9
+US Dairy Plant Q,Core,2%,qt,2/8/2016,2016,2,,320000,,9.2
+US Dairy Plant AI,Core,2%,qt,2/9/2016,2016,4,,380000000,,0
+US Dairy Plant N,Core,2%,½ Gallon,3/15/2016,2016,0,,890,,9.3
+US Dairy Plant BK,Core,2%,½ Gallon,3/14/2016,2016,0,,7200,,9
+US Dairy Plant BL,Core,2%,½ Gallon,3/14/2016,2016,2,,880000,,9
+US Dairy Plant B,Core,2%,½ Gallon,3/14/2016,2016,0,,3900,,8.9
+US Dairy Plant W,Core,2%,½ Gallon,4/18/2016,2016,5,,400000000,,0.2
+US Dairy Plant W,Single Serve,2%,½ Pint,4/19/2016,2016,4,,400000000,,3.9
+US Dairy Plant F,Core,2%,½ Gallon,4/17/2016,2016,5,,1200000000,,2.3
+US Dairy Plant AH,Core,2%,½ Gallon,5/23/2016,2016,3,,15000000,,8.6
+US Dairy Plant AH,Single Serve,2%,½ Pint,5/23/2016,2016,6,,7700000000,,0
+US Dairy Plant A,Core,2%,½ Gallon,5/24/2016,2016,5,,500000000,,0.1
+US Dairy Plant U,Core,2%,½ Gallon,5/24/2016,2016,0,,470,,9.4
+US Dairy Plant D,Core,2%,½ Gallon,5/25/2016,2016,0,,10,E,8.4
+US Dairy Plant I,Core,2%,½ Gallon,7/11/2016,2016,0,,9400,,8.6
+US Dairy Plant I,Single Serve,2%,½ Pint,7/11/2016,2016,0,,170,E,8.9
+US Dairy Plant BX ,Core,2%,½ Gallon,7/11/2016,2016,4,,110000000,,0.9
+US Dairy Plant F,Core,2%,½ Gallon,8/8/2016,2016,0,,2300,S,7.7
+US Dairy Plant U,Core,2%,½ Gallon,8/9/2016,2016,0,,1200,,9
+US Dairy Plant U,Single Serve,2%,½ Pint,8/9/2016,2016,0,,2100,,9.2
+US Dairy Plant D,Core,2%,½ Gallon,8/10/2016,2016,0,,140,E,8.9
+US Dairy Plant A,Core,2%,½ Gallon,8/29/2016,2016,0,,350,E,9.4
+US Dairy Plant A,Single Serve,2%,½ Pint,8/29/2016,2016,2,,12000000,,7.3
+US Dairy Plant BJ,Core,2%,½ Gallon,8/29/2016,2016,0,>,400000,E,9.3
+US Dairy Plant BJ,Single Serve,2%,½ Pint,8/30/2016,2016,0,,320,E,7.6
+US Dairy Plant AD,Core,2%,½ Gallon,8/30/2016,2016,0,,450,,9.4
+US Dairy Plant W,Core,2%,½ Gallon,8/30/2016,2016,5,,1800000000,,0
+US Dairy Plant W,Single Serve,2%,½ Pint,8/30/2016,2016,5,,570000000,,0.7
+US Dairy Plant B,Core,2%,½ Gallon,9/26/2016,2016,4,,790000000,,1.4
+US Dairy Plant Q,Core,2%,qt,9/26/2016,2016,0,,41,E,7.5
+US Dairy Plant Q,Single Serve,2%,½ Pint,9/26/2016,2016,0,,10,E,6.9
+US Dairy Plant AF,Core,2%,½ Gallon,9/26/2016,2016,0,,2900,,7.6
+US Dairy Plant AL,Core,2%,½ Gallon,9/24/2016,2016,5,,850000000,,3.5
+US Dairy Plant BL,Core,2%,½ Gallon,10/24/2016,2016,0,,1300,,8.3
+US Dairy Plant N,Core,2%,½ Gallon,10/24/2016,2016,0,,590,,8.7
+US Dairy Plant BK,Core,2%,½ Gallon,10/24/2016,2016,0,,290,E,8.9
+US Dairy Plant AE,Core,2%,½ Gallon,10/25/2016,2016,3,,950000,,7.8
+US Dairy Plant AE,Single Serve,2%,½ Pint,10/25/2016,2016,3,,82000000,,4.7
+US Dairy Plant AI,Core,2%,qt,11/1/2016,2016,5,,5600000000,,0.6
+US Dairy Plant I,Core,2%,½ Gallon,1/9/2017,2017,0,,6700,,8.5
+US Dairy Plant I,Single Serve,2%,½ Pint,1/9/2017,2017,4,,50000000,,3.2
+US Dairy Plant Q,Core,2%,qt,1/9/2017,2017,0,,810,,9.3
+US Dairy Plant Q,Single Serve,2%,½ Pint,1/9/2017,2017,0,,380,E,9
+US Dairy Plant AF,Core,2%,½ Gallon,1/9/2017,2017,0,,980,,8.9
+US Dairy Plant AD,Core,2%,½ Gallon,1/10/2017,2017,0,,470,,9.4
+US Dairy Plant AL,Core,2%,½ Gallon,1/7/2017,2017,3,,74000000,,9
+US Dairy Plant B,Core,2%,½ Gallon,2/6/2017,2017,0,,320,E,9.4
+US Dairy Plant BL,Core,2%,½ Gallon,2/7/2017,2017,0,,610,,9.4
+US Dairy Plant D,Core,2%,½ Gallon,2/8/2017,2017,5,,1500000000,,4.4
+US Dairy Plant BJ,Core,2%,½ Gallon,3/13/2017,2017,0,,60000,,9.2
+US Dairy Plant BJ,Single Serve,2%,½ Pint,3/13/2017,2017,0,,27000,,9.3
+US Dairy Plant U,Core,2%,½ Gallon,3/21/2017,2017,0,<,10,E,8.7
+US Dairy Plant U,Single Serve,2%,½ Pint,3/21/2017,2017,0,,240000,,8.6
+US Dairy Plant F,Core,2%,½ Gallon,4/10/2017,2017,0,,10,SE,8.4
+US Dairy Plant A,Core,2%,½ Gallon,5/15/2017,2017,4,,720000000,,1.7
+US Dairy Plant A,Single Serve,2%,½ Pint,5/14/2017,2017,0,>,400000,E,9
+US Dairy Plant AE,Core,2%,½ Gallon,5/16/2017,2017,0,,700,,8.1
+US Dairy Plant AE,Single Serve,2%,½ Pint,5/16/2017,2017,0,,7700,,8.6
+US Dairy Plant BK,Core,2%,½ Gallon,5/16/2017,2017,0,,5400,,4.2
+US Dairy Plant AI,Core,2%,qt,5/15/2017,2017,4,,330000000,,0.1
+US Dairy Plant N,Core,2%,½ Gallon,5/15/2017,2017,3,,3300000,,9.3
+US Dairy Plant N,Single Serve,2%,½ Pint,5/15/2017,2017,4,,390000000,,3.3
+US Dairy Plant I,Core,2%,½ Gallon,7/10/2017,2017,0,,780,,8.9
+US Dairy Plant AD,Core,2%,½ Gallon,7/11/2017,2017,0,,240,E,9.4
+US Dairy Plant D,Core,2%,½ Gallon,7/12/2017,2017,4,,110000000,,0.6
+US Dairy Plant BX ,Core,2%,½ Gallon,7/10/2017,2017,0,,82,E,8.9
+US Dairy Plant B,Core,2%,½ Gallon,8/7/2017,2017,0,>,400000,E,7.6
+US Dairy Plant Q,Core,2%,qt,8/7/2017,2017,0,,1100,,9.6
+US Dairy Plant AE,Core,2%,½ Gallon,8/29/2017,2017,1,,120000,,8.4
+US Dairy Plant AE,Single Serve,2%,½ Pint,8/29/2017,2017,3,,38000000,,7.3
+US Dairy Plant F,Core,2%,½ Gallon,8/31/2017,2017,1,,3500,E,9.2
+US Dairy Plant U,Core,2%,½ Gallon,8/29/2017,2017,2,,5000,E,9.3
+US Dairy Plant U,Single Serve,2%,½ Pint,8/29/2017,2017,0,,10,E,9.4
+US Dairy Plant BK,Core,2%,½ Gallon,9/4/2017,2017,0,,67000,,9.4
+US Dairy Plant BJ,Core,2%,½ Gallon,9/25/2017,2017,0,,880,,9.3
+US Dairy Plant BJ,Single Serve,2%,½ Pint,9/25/2017,2017,2,,210000,,8.6
+US Dairy Plant AF,Core,2%,½ Gallon,9/25/2017,2017,0,,480,,8.1
+US Dairy Plant BL,Core,2%,½ Gallon,9/25/2017,2017,3,,81000000,,0.8
+US Dairy Plant AI,Core,2%,qt,9/28/2017,2017,4,,48000000,,2.3
+US Dairy Plant N,Core,2%,½ Gallon,10/23/2017,2017,0,,66000,,8.5
+US Dairy Plant A,Core,2%,½ Gallon,10/23/2017,2017,0,,100,E,9.3
+US Dairy Plant A,Single Serve,2%,½ Pint,10/23/2017,2017,2,,1300000,,7.7
+US Dairy Plant AL,Core,2%,½ Gallon,10/21/2017,2017,2,,11000000,,8.8
+US Dairy Plant W,Core,2%,½ Gallon,10/23/2017,2017,5,,210000000,,2.2
+US Dairy Plant W,Single Serve,2%,½ Pint,10/23/2017,2017,3,,100000000,,1.3
+US Dairy Plant I,Core,Skim,½ Gallon,1/7/2013,2013,,,9600000,,6.4
+US Dairy Plant Q,Core,Skim,½ Gallon,1/7/2013,2013,,,2500000000,,0.3
+US Dairy Plant AI,Core,Skim,qt,1/8/2013,2013,,,230000,,6.6
+US Dairy Plant D,Core,Skim,½ Gallon,1/9/2013,2013,,,520000000,,0
+US Dairy Plant H,Core,Skim,½ Gallon,2/3/2013,2013,,,1700000000,,2.4
+US Dairy Plant W,Core,Skim,½ Gallon,2/4/2013,2013,,,270000000,,6.6
+US Dairy Plant F,Core,Skim,½ Gallon,2/4/2013,2013,,,2300,,8
+US Dairy Plant BL,Core,Skim,½ Gallon,2/25/2013,2013,,>,400000,E,3.5
+US Dairy Plant BK,Core,Skim,½ Gallon,2/25/2013,2013,,,150,E,7.2
+US Dairy Plant AE,Core,Skim,½ Gallon,3/16/2013,2013,,,950,,8.2
+US Dairy Plant BJ,Core,Skim,½ Gallon,3/18/2013,2013,,,120000,,8.2
+US Dairy Plant AF,Core,Skim,½ Gallon,3/18/2013,2013,,,720,,8.5
+US Dairy Plant AD,Core,Skim,½ Gallon,3/18/2013,2013,,,120,E,8.4
+US Dairy Plant BS,Core,Skim,½ Gallon,3/18/2013,2013,,,1400000000,,1.3
+US Dairy Plant N,Core,Skim,½ Gallon,4/22/2013,2013,,,410,,8.2
+US Dairy Plant B,Core,Skim,½ Gallon,4/23/2013,2013,,,3600,S,8.2
+US Dairy Plant AH,Core,Skim,½ Gallon,4/22/2013,2013,,,17000000,,5
+US Dairy Plant A,Core,Skim,½ Gallon,4/23/2013,2013,,,4100,,8.6
+US Dairy Plant AL,Core,Skim,½ Gallon,8/12/2013,2013,3,,6700,E,7.9
+US Dairy Plant I,Core,Skim,½ Gallon,8/12/2013,2013,2,,620,E,7.5
+US Dairy Plant Q,Core,Skim,½ Gallon,8/10/2013,2013,2,,1100,E,8.2
+US Dairy Plant H,Core,Skim,½ Gallon,9/8/2013,2013,4,,12000000,,4.2
+US Dairy Plant W,Core,Skim,½ Gallon,9/10/2013,2013,5,,12000000,,8.4
+US Dairy Plant F,Core,Skim,½ Gallon,9/8/2013,2013,0,,160,E,8
+US Dairy Plant N,Core,Skim,½ Gallon,10/7/2013,2013,2,,44000,,8.5
+US Dairy Plant BK,Core,Skim,½ Gallon,10/7/2013,2013,0,,20,E,8.1
+US Dairy Plant BL,Core,Skim,½ Gallon,10/7/2013,2013,4,,670000000,,6.4
+US Dairy Plant B,Core,Skim,½ Gallon,10/7/2013,2013,4,,12000000,,5
+US Dairy Plant AH,Core,Skim,½ Gallon,10/28/2013,2013,2,,2000,,8.3
+US Dairy Plant Z,Core,Skim,½ Gallon,10/26/2013,2013,2,,5400000,,8.8
+US Dairy Plant A,Core,Skim,½ Gallon,10/28/2013,2013,0,,100,E,8.7
+US Dairy Plant U,Core,Skim,½ Gallon,10/29/2013,2013,0,,41,E,8.4
+US Dairy Plant AE,Core,Skim,½ Gallon,1/6/2014,2014,0,,200,E,8.3
+US Dairy Plant AF,Core,Skim,½ Gallon,1/6/2014,2014,0,,490,,9
+US Dairy Plant AD,Core,Skim,½ Gallon,1/6/2014,2014,0,,130,E,8.7
+US Dairy Plant BS,Core,Skim,½ Gallon,1/6/2014,2014,0,,310000,,8.2
+US Dairy Plant AL,Core,Skim,½ Gallon,2/3/2014,2014,6,,2700000000,,0.8
+US Dairy Plant I,Core,Skim,½ Gallon,2/3/2014,2014,0,,360,E,7.8
+US Dairy Plant Q,Core,Skim,½ Gallon,2/1/2014,2014,0,,120,E,8.1
+US Dairy Plant AI,Core,Skim,qt,2/4/2014,2014,6,,530000000,,3.2
+US Dairy Plant D,Core,Skim,½ Gallon,2/5/2014,2014,2,,310000,,8.2
+US Dairy Plant H,Core,Skim,½ Gallon,3/9/2014,2014,0,,310,E,8.8
+US Dairy Plant W,Core,Skim,½ Gallon,3/11/2014,2014,2,,73000,,8.2
+US Dairy Plant F,Core,Skim,½ Gallon,3/10/2014,2014,0,,26000,,8.3
+US Dairy Plant N,Core,Skim,½ Gallon,4/14/2014,2014,0,,140,E,8.5
+US Dairy Plant BK,Core,Skim,½ Gallon,4/14/2014,2014,0,,10,E,8.4
+US Dairy Plant BL,Core,Skim,½ Gallon,4/14/2014,2014,0,,2400,,8.6
+US Dairy Plant B,Core,Skim,½ Gallon,4/14/2014,2014,5,,54000000,,8.8
+US Dairy Plant AH,Core,Skim,½ Gallon,5/19/2014,2014,0,,380,E,8.4
+US Dairy Plant A,Core,Skim,½ Gallon,5/19/2014,2014,0,,41,E,7.7
+US Dairy Plant U,Core,Skim,½ Gallon,5/20/2014,2014,0,,5700,,8.5
+US Dairy Plant AF,Core,Skim,½ Gallon,7/7/2014,2014,,,230,E,8.4
+US Dairy Plant AD,Core,Skim,½ Gallon,7/7/2014,2014,,,50,E,7.8
+US Dairy Plant AL,Core,Skim,½ Gallon,8/18/2014,2014,0,,170,E,7.8
+US Dairy Plant I,Core,Skim,½ Gallon,8/18/2014,2014,0,,2500,,8
+US Dairy Plant Q,Core,Skim,½ Gallon,8/18/2014,2014,0,,280,E,8.4
+US Dairy Plant AI,Core,Skim,qt,8/19/2014,2014,2,,1000,E,8.4
+US Dairy Plant N,Core,Skim,½ Gallon,9/8/2014,2014,0,,400000,,8.8
+US Dairy Plant BK,Core,Skim,½ Gallon,9/8/2014,2014,0,,200,E,8.8
+US Dairy Plant BL,Core,Skim,½ Gallon,9/9/2014,2014,2,,44000,,8.4
+US Dairy Plant B,Core,Skim,½ Gallon,9/8/2014,2014,0,,290,E,8.7
+US Dairy Plant W,Core,Skim,½ Gallon,10/7/2014,2014,0,,26000,,8.8
+US Dairy Plant F,Core,Skim,½ Gallon,10/6/2014,2014,0,>,400000,E,8.1
+US Dairy Plant AH,Core,Skim,½ Gallon,10/27/2014,2014,2,,1000000,,8.8
+US Dairy Plant U,Core,Skim,½ Gallon,10/28/2014,2014,0,,10,E,8.5
+US Dairy Plant D,Core,Skim,½ Gallon,10/29/2014,2014,3,,140000000,,0.2
+US Dairy Plant AE,Core,Skim,½ Gallon,1/3/2015,2015,0,,130,E,9
+US Dairy Plant BJ,Core,Skim,½ Gallon,1/5/2015,2015,0,,4000,,8.8
+US Dairy Plant BJ,Single Serve,Skim,½ Pint,1/5/2015,2015,0,,2400,,8.9
+US Dairy Plant AF,Core,Skim,½ Gallon,1/5/2015,2015,2,,5100,E,8.9
+US Dairy Plant AD,Core,Skim,½ Gallon,1/5/2015,2015,0,,650,,8.8
+US Dairy Plant AL,Core,Skim,½ Gallon,1/31/2015,2015,0,,30,E,7.6
+US Dairy Plant I,Core,Skim,½ Gallon,2/2/2015,2015,0,,10,E,8.9
+US Dairy Plant Q,Core,Skim,½ Gallon,2/2/2015,2015,0,>,400000,E,0.3
+US Dairy Plant AI,Core,Skim,qt,2/3/2015,2015,3,,210000000,,0
+US Dairy Plant BK,Core,Skim,½ Gallon,2/23/2015,2015,4,,160000000,,7.6
+US Dairy Plant B,Core,Skim,½ Gallon,2/23/2015,2015,0,,720,,8.9
+US Dairy Plant F,Core,Skim,½ Gallon,2/23/2015,2015,5,,2000000000,,5.6
+US Dairy Plant N,Core,Skim,½ Gallon,4/6/2015,2015,0,,2200,,9
+US Dairy Plant H,Core,Skim,½ Gallon,4/4/2015,2015,0,,51,E,8.7
+US Dairy Plant W,Core,Skim,½ Gallon,4/7/2015,2015,5,,7500000000,,0
+US Dairy Plant BJ,Core,Skim,½ Gallon,7/13/2015,2015,0,,3800,,9.2
+US Dairy Plant AF,Core,Skim,½ Gallon,7/13/2015,2015,0,,39000,,9
+US Dairy Plant AD,Core,Skim,½ Gallon,7/14/2015,2015,0,,120,E,8.7
+US Dairy Plant AL,Core,Skim,½ Gallon,8/1/2015,2015,4,,280000000,,5.3
+US Dairy Plant I,Core,Skim,½ Gallon,8/3/2015,2015,4,,120000000,,7.6
+US Dairy Plant Q,Core,Skim,½ Gallon,8/3/2015,2015,3,,2000000,,8.9
+US Dairy Plant AI,Core,Skim,qt,8/4/2015,2015,5,,230000000,,0
+US Dairy Plant N,Core,Skim,½ Gallon,9/15/2015,2015,0,,450,,8.7
+US Dairy Plant BK,Core,Skim,½ Gallon,9/14/2015,2015,0,,150,E,8.7
+US Dairy Plant BL,Core,Skim,½ Gallon,9/14/2015,2015,2,,350000,,7.9
+US Dairy Plant B,Core,Skim,½ Gallon,9/15/2015,2015,0,,130,E,9
+US Dairy Plant H,Core,Skim,½ Gallon,10/5/2015,2015,0,,33000,,8.9
+US Dairy Plant W,Core,Skim,½ Gallon,10/6/2015,2015,2,,1100000,,8.8
+US Dairy Plant F,Core,Skim,½ Gallon,10/5/2015,2015,0,,2700,,8.8
+US Dairy Plant BP,Core,Skim,½ Gallon,10/1/2015,2015,4,,150000000,,8.2
+US Dairy Plant AH,Core,Skim,½ Gallon,10/26/2015,2015,4,,860000000,,0
+US Dairy Plant A,Core,Skim,½ Gallon,10/26/2015,2015,0,,920,,8.8
+US Dairy Plant U,Core,Skim,½ Gallon,10/27/2015,2015,0,,1000,,9.1
+US Dairy Plant D,Core,Skim,½ Gallon,10/28/2015,2015,4,,620000000,,1.5
+US Dairy Plant BJ,Core,Skim,½ Gallon,1/11/2016,2016,0,,2000,,8.6
+US Dairy Plant AF,Core,Skim,½ Gallon,1/11/2016,2016,3,,6000000,,4.2
+US Dairy Plant AD,Core,Skim,½ Gallon,1/12/2016,2016,0,,41,E,8.6
+US Dairy Plant AE,Core,Skim,½ Gallon,1/18/2016,2016,0,,560,,8.8
+US Dairy Plant AL,Core,Skim,½ Gallon,2/6/2016,2016,4,,170000000,,6.1
+US Dairy Plant I,Core,Skim,½ Gallon,2/8/2016,2016,0,,20,E,8
+US Dairy Plant Q,Core,Skim,qt,2/8/2016,2016,0,,1600,,8.7
+US Dairy Plant AI,Core,Skim,qt,2/9/2016,2016,4,,250000000,,0
+US Dairy Plant N,Core,Skim,½ Gallon,3/15/2016,2016,0,,110,E,9
+US Dairy Plant BK,Core,Skim,½ Gallon,3/14/2016,2016,0,,2500,,8.8
+US Dairy Plant BL,Core,Skim,½ Gallon,3/14/2016,2016,2,,430000,,8.6
+US Dairy Plant B,Core,Skim,½ Gallon,3/14/2016,2016,0,,200,E,9
+US Dairy Plant W,Core,Skim,½ Gallon,4/18/2016,2016,5,,580000000,,8.7
+US Dairy Plant F,Core,Skim,½ Gallon,4/18/2016,2016,3,,28000000,,8.5
+US Dairy Plant AH,Core,Skim,½ Gallon,5/23/2016,2016,5,,840000000,,1.6
+US Dairy Plant A,Core,Skim,½ Gallon,5/24/2016,2016,2,,120000,,8.8
+US Dairy Plant U,Core,Skim,½ Gallon,5/24/2016,2016,0,,450,,8.9
+US Dairy Plant BP,Core,Skim,½ Gallon,5/24/2016,2016,2,,20000,E,8.4
+US Dairy Plant D,Core,Skim,½ Gallon,5/25/2016,2016,5,,310000000,,0.1
+US Dairy Plant I,Core,Skim,½ Gallon,7/11/2016,2016,0,,1300,,8.7
+US Dairy Plant I,Single Serve,Skim,½ Pint,7/11/2016,2016,5,,290000000,,0.2
+US Dairy Plant BX ,Core,Skim,½ Gallon,7/11/2016,2016,2,,600000,,8.8
+US Dairy Plant U,Core,Skim,½ Gallon,8/9/2016,2016,5,,3100000000,,0.8
+US Dairy Plant U,Single Serve,Skim,½ Pint,8/9/2016,2016,0,,1000,,8.2
+US Dairy Plant D,Core,Skim,½ Gallon,8/10/2016,2016,0,,82,E,7.8
+US Dairy Plant A,Core,Skim,½ Gallon,8/29/2016,2016,0,,140,E,8
+US Dairy Plant A,Single Serve,Skim,½ Pint,8/29/2016,2016,5,,3000000000,,5
+US Dairy Plant BJ,Core,Skim,½ Gallon,8/29/2016,2016,0,,180,E,9.3
+US Dairy Plant BJ,Single Serve,Skim,½ Pint,8/29/2016,2016,4,,100000000,,4.5
+US Dairy Plant AD,Core,Skim,½ Gallon,8/30/2016,2016,0,,270,E,8.2
+US Dairy Plant W,Core,Skim,½ Gallon,8/25/2016,2016,0,,2800,,9.4
+US Dairy Plant W,Single Serve,Skim,½ Pint,8/29/2016,2016,3,,6100000,,8.3
+US Dairy Plant B,Core,Skim,½ Gallon,9/26/2016,2016,0,,120000,,9
+US Dairy Plant Q,Core,Skim,qt,9/26/2016,2016,0,,21000,,8.8
+US Dairy Plant Q,Single Serve,Skim,½ Pint,9/26/2016,2016,5,,940000000,,5.2
+US Dairy Plant AF,Core,Skim,½ Gallon,9/26/2016,2016,0,,41,E,9.2
+US Dairy Plant AL,Core,Skim,½ Gallon,9/24/2016,2016,5,,700000000,,7.8
+US Dairy Plant BL,Core,Skim,½ Gallon,10/24/2016,2016,2,,20000000,,6
+US Dairy Plant N,Single Serve,Skim,½ Pint,10/24/2016,2016,3,,120000000,,5.5
+US Dairy Plant BK,Core,Skim,½ Gallon,10/25/2016,2016,0,<,10,E,8
+US Dairy Plant AE,Single Serve,Skim,½ Pint,10/25/2016,2016,5,,1800000000,,2.1
+US Dairy Plant AI,Core,Skim,qt,11/1/2016,2016,2,,1300000,,7.6
+US Dairy Plant BP,Core,Skim,½ Gallon,10/26/2016,2016,5,,420000000,,3
+US Dairy Plant I,Core,Skim,½ Gallon,1/9/2017,2017,0,,150,E,8.6
+US Dairy Plant I,Single Serve,Skim,½ Pint,1/9/2017,2017,0,,480,,7.7
+US Dairy Plant Q,Core,Skim,qt,1/9/2017,2017,0,,52000,,8.1
+US Dairy Plant Q,Single Serve,Skim,½ Pint,1/9/2017,2017,0,,720,,8.4
+US Dairy Plant AF,Core,Skim,½ Gallon,1/9/2017,2017,0,>,400000,E,8.7
+US Dairy Plant AD,Core,Skim,½ Gallon,1/10/2017,2017,0,,20,E,8.6
+US Dairy Plant AL,Core,Skim,½ Gallon,1/7/2017,2017,0,,2200,,6.8
+US Dairy Plant B,Core,Skim,½ Gallon,2/6/2017,2017,0,,100,E,6.9
+US Dairy Plant BL,Core,Skim,½ Gallon,2/7/2017,2017,0,,270,E,8.9
+US Dairy Plant D,Core,Skim,½ Gallon,2/8/2017,2017,0,,12000,,9.1
+US Dairy Plant BX ,Core,Skim,½ Gallon,2/6/2017,2017,0,,1600,,9
+US Dairy Plant BJ,Core,Skim,½ Gallon,3/13/2017,2017,0,,500,,8.8
+US Dairy Plant BJ,Single Serve,Skim,½ Pint,3/14/2017,2017,0,,320,E,8.8
+US Dairy Plant U,Core,Skim,½ Gallon,3/21/2017,2017,0,,10,E,8.6
+US Dairy Plant U,Single Serve,Skim,½ Pint,3/21/2017,2017,0,,220,E,8.6
+US Dairy Plant F,Core,Skim,½ Gallon,4/9/2017,2017,0,>,400000,E,8.9
+US Dairy Plant A,Core,Skim,½ Gallon,5/15/2017,2017,2,,4600000,,7.3
+US Dairy Plant A,Single Serve,Skim,½ Pint,5/15/2017,2017,0,,100,E,8.2
+US Dairy Plant AE,Core,Skim,½ Gallon,5/16/2017,2017,0,,260,E,9.4
+US Dairy Plant AE,Single Serve,Skim,½ Pint,5/16/2017,2017,0,,330,E,9.3
+US Dairy Plant BK,Core,Skim,½ Gallon,5/15/2017,2017,2,,1100000,,9.3
+US Dairy Plant AI,Core,Skim,qt,5/15/2017,2017,4,,1000000000,,0
+US Dairy Plant N,Core,Skim,½ Gallon,5/15/2017,2017,0,,240,E,9
+US Dairy Plant I,Core,Skim,½ Gallon,7/10/2017,2017,0,,270,E,9.2
+US Dairy Plant I,Single Serve,Skim,½ Pint,7/10/2017,2017,0,,270,E,8.8
+US Dairy Plant AD,Core,Skim,½ Gallon,7/11/2017,2017,0,,110,E,9.1
+US Dairy Plant D,Core,Skim,½ Gallon,7/12/2017,2017,4,,210000000,,1.4
+US Dairy Plant BX ,Core,Skim,½ Gallon,7/10/2017,2017,3,,13000000,,7.7
+US Dairy Plant B,Core,Skim,½ Gallon,8/7/2017,2017,1,,820,E,9.1
+US Dairy Plant Q,Core,Skim,qt,8/7/2017,2017,0,,12000,,9.2
+US Dairy Plant AE,Core,Skim,½ Gallon,8/29/2017,2017,0,,18000,,7.2
+US Dairy Plant AE,Single Serve,Skim,½ Pint,8/29/2017,2017,2,,7800000,,7.2
+US Dairy Plant F,Core,Skim,½ Gallon,8/31/2017,2017,0,,5400,,8.8
+US Dairy Plant U,Core,Skim,½ Gallon,8/29/2017,2017,0,,30,E,9
+US Dairy Plant U,Single Serve,Skim,½ Pint,8/29/2017,2017,0,,10,E,9.3
+US Dairy Plant BK,Core,Skim,½ Gallon,9/5/2017,2017,0,,220,E,9.2
+US Dairy Plant BJ,Core,Skim,½ Gallon,9/25/2017,2017,0,>,400000,E,8.5
+US Dairy Plant BJ,Single Serve,Skim,½ Pint,9/25/2017,2017,0,,2200,,7.9
+US Dairy Plant AF,Core,Skim,½ Gallon,9/25/2017,2017,0,,230,E,8.4
+US Dairy Plant BL,Core,Skim,½ Gallon,9/25/2017,2017,0,,1100,,8.2
+US Dairy Plant N,Core,Skim,½ Gallon,10/23/2017,2017,2,,1000000,,4.9
+US Dairy Plant N,Single Serve,Skim,½ Pint,10/23/2017,2017,3,>,400000000,E,6.4
+US Dairy Plant A,Core,Skim,½ Gallon,10/23/2017,2017,0,,120000,,8.6
+US Dairy Plant A,Single Serve,Skim,½ Pint,10/23/2017,2017,0,,3100,,8.5
+US Dairy Plant AL,Core,Skim,½ Gallon,10/21/2017,2017,3,,520000,,4.8
+US Dairy Plant W,Core,Skim,½ Gallon,10/21/2017,2017,2,,1100000,,9.1
+US Dairy Plant W,Single Serve,Skim,½ Pint,10/23/2017,2017,5,,830000000,,0.7
+US Dairy Plant I,Core,1%,½ Gallon,1/7/2013,2013,,,280,E,8.2
+US Dairy Plant Q,Core,1%,½ Gallon,1/7/2013,2013,,,340,E,8.3
+US Dairy Plant H,Core,1%,½ Gallon,2/3/2013,2013,,,530000000,,5.2
+US Dairy Plant W,Core,1%,½ Gallon,2/4/2013,2013,,,370000000,,6.6
+US Dairy Plant F,Core,1%,½ Gallon,2/3/2013,2013,,,1200,,8.4
+US Dairy Plant BL,Core,1%,½ Gallon,2/25/2013,2013,,,450000000,,3
+US Dairy Plant XXXX,Core,1%,½ Gallon,2/26/2013,2013,,,2100000000,,1.5
+US Dairy Plant BJ,Core,1%,½ Gallon,3/18/2013,2013,,,230000000,,7.8
+US Dairy Plant AF,Core,1%,½ Gallon,3/18/2013,2013,,,15000,,7.7
+US Dairy Plant AD,Core,1%,½ Gallon,3/18/2013,2013,,,10000,,8.4
+US Dairy Plant BS,Core,1%,½ Gallon,3/18/2013,2013,,,330,E,8.7
+US Dairy Plant N,Core,1%,½ Gallon,4/22/2013,2013,,,290,E,8.4
+US Dairy Plant B,Core,1%,½ Gallon,4/23/2013,2013,,,27000,,8
+US Dairy Plant AH,Core,1%,½ Gallon,4/22/2013,2013,,,17000000000,,0
+US Dairy Plant Z,Core,1%,½ Gallon,4/22/2013,2013,,,44000,,8.7
+US Dairy Plant A,Core,1%,½ Gallon,4/23/2013,2013,,,190000000,,0
+US Dairy Plant I,Core,1%,½ Gallon,8/12/2013,2013,2,,310,E,8.4
+US Dairy Plant Q,Core,1%,½ Gallon,8/10/2013,2013,2,,740,E,8.7
+US Dairy Plant H,Core,1%,½ Gallon,9/8/2013,2013,3,,15000,,8.6
+US Dairy Plant F,Core,1%,½ Gallon,9/9/2013,2013,0,,63,E,8.4
+US Dairy Plant N,Core,1%,½ Gallon,10/7/2013,2013,2,,1000,,8.7
+US Dairy Plant BL,Core,1%,½ Gallon,10/7/2013,2013,2,,19000,,9
+US Dairy Plant B,Core,1%,½ Gallon,10/7/2013,2013,0,,1100,,9
+US Dairy Plant XXXX,Core,1%,½ Gallon,10/7/2013,2013,5,,120000000,,0
+US Dairy Plant AH,Core,1%,½ Gallon,10/28/2013,2013,2,,3000,,8.8
+US Dairy Plant Z,Core,1%,½ Gallon,10/26/2013,2013,2,,6300,,8.9
+US Dairy Plant A,Core,1%,½ Gallon,10/28/2013,2013,0,,550,,9.1
+US Dairy Plant AE,Core,1%,½ Gallon,1/6/2014,2014,4,,41000000,,8
+US Dairy Plant BJ,Core,1%,½ Gallon,1/6/2014,2014,0,,460,,9
+US Dairy Plant AF,Core,1%,½ Gallon,1/6/2014,2014,0,,8900,,8.6
+US Dairy Plant AD,Core,1%,½ Gallon,1/6/2014,2014,0,,220,E,9.2
+US Dairy Plant BS,Core,1%,½ Gallon,1/6/2014,2014,0,,2600,,8.8
+US Dairy Plant BS,Single Serve,1%,½ Pint,1/6/2014,2014,0,,9700,,7.6
+US Dairy Plant I,Core,1%,½ Gallon,2/3/2014,2014,0,,3300,,8.6
+US Dairy Plant Q,Core,1%,½ Gallon,2/1/2014,2014,0,,910,,8.8
+US Dairy Plant H,Core,1%,½ Gallon,3/9/2014,2014,0,,51000,,9
+US Dairy Plant W,Core,1%,½ Gallon,3/10/2014,2014,2,,23000000,,5.8
+US Dairy Plant F,Core,1%,½ Gallon,3/10/2014,2014,5,,83000000,,8.7
+US Dairy Plant N,Core,1%,½ Gallon,4/14/2014,2014,0,,290,E,8.8
+US Dairy Plant BL,Core,1%,½ Gallon,4/14/2014,2014,0,,4200,,9.1
+US Dairy Plant B,Core,1%,½ Gallon,4/14/2014,2014,0,,870,,9.2
+US Dairy Plant AH,Core,1%,½ Gallon,5/19/2014,2014,5,,150000000,,8
+US Dairy Plant A,Core,1%,½ Gallon,5/19/2014,2014,0,,780,,8.7
+US Dairy Plant AF,Core,1%,½ Gallon,7/7/2014,2014,,,670,,9
+US Dairy Plant AD,Core,1%,½ Gallon,7/7/2014,2014,,,11000,,9.1
+US Dairy Plant I,Core,1%,½ Gallon,8/18/2014,2014,0,,51,E,8.4
+US Dairy Plant Q,Core,1%,½ Gallon,8/18/2014,2014,1,,820,E,8.1
+US Dairy Plant N,Core,1%,½ Gallon,9/8/2014,2014,0,,41,E,8.8
+US Dairy Plant BL,Core,1%,½ Gallon,9/9/2014,2014,0,,1400,,8.8
+US Dairy Plant B,Core,1%,½ Gallon,9/8/2014,2014,0,,760,,8.8
+US Dairy Plant XXXX,Core,1%,½ Gallon,9/8/2014,2014,5,,3100000000,,1.6
+US Dairy Plant W,Core,1%,½ Gallon,10/7/2014,2014,0,,1700,,8.8
+US Dairy Plant F,Core,1%,½ Gallon,10/6/2014,2014,0,>,400000,E,3.9
+US Dairy Plant AH,Core,1%,½ Gallon,10/27/2014,2014,2,,450000,,9.1
+US Dairy Plant A,Core,1%,½ Gallon,10/27/2014,2014,0,,1400,,9.1
+US Dairy Plant AE,Core,1%,½ Gallon,1/3/2015,2015,0,,140,E,9.2
+US Dairy Plant AE,Single Serve,1%,½ Pint,1/5/2015,2015,2,,4900000,,8.8
+US Dairy Plant BJ,Core,1%,½ Gallon,1/5/2015,2015,0,,4200,,9.2
+US Dairy Plant AF,Core,1%,½ Gallon,1/5/2015,2015,0,,160,E,9.3
+US Dairy Plant AD,Core,1%,½ Gallon,1/5/2015,2015,0,,51,E,9.2
+US Dairy Plant I,Core,1%,½ Gallon,2/2/2015,2015,0,,90,E,9.2
+US Dairy Plant Q,Core,1%,½ Gallon,2/2/2015,2015,0,,1100,,8.6
+US Dairy Plant BL,Core,1%,½ Gallon,2/24/2015,2015,0,,290,E,8.2
+US Dairy Plant B,Core,1%,½ Gallon,2/23/2015,2015,0,,940,,9.1
+US Dairy Plant F,Core,1%,½ Gallon,2/23/2015,2015,0,,4200,,9.1
+US Dairy Plant N,Core,1%,½ Gallon,4/6/2015,2015,0,,8600,,9.1
+US Dairy Plant H,Core,1%,½ Gallon,4/4/2015,2015,0,,260,E,9.2
+US Dairy Plant W,Core,1%,½ Gallon,4/6/2015,2015,2,,10000000,,8.7
+US Dairy Plant AE,Core,1%,½ Gallon,7/14/2015,2015,0,,600,,9
+US Dairy Plant BJ,Core,1%,½ Gallon,7/13/2015,2015,0,,1700,,9.2
+US Dairy Plant AF,Core,1%,½ Gallon,7/13/2015,2015,4,,270000000,,8.3
+US Dairy Plant AD,Core,1%,½ Gallon,7/14/2015,2015,0,,270,E,9.1
+US Dairy Plant I,Core,1%,½ Gallon,8/3/2015,2015,4,,580000000,,0
+US Dairy Plant Q,Core,1%,½ Gallon,8/3/2015,2015,4,,200000000,,0.4
+US Dairy Plant N,Core,1%,½ Gallon,9/15/2015,2015,0,,24000,,9
+US Dairy Plant BL,Core,1%,½ Gallon,9/14/2015,2015,0,,46000,,8.1
+US Dairy Plant B,Core,1%,½ Gallon,9/15/2015,2015,0,,970,,9
+US Dairy Plant H,Core,1%,½ Gallon,10/5/2015,2015,5,,1900000000,,0
+US Dairy Plant W,Core,1%,½ Gallon,10/5/2015,2015,3,,52000000,,2.2
+US Dairy Plant F,Core,1%,½ Gallon,10/5/2015,2015,3,,66000000,,8.4
+US Dairy Plant AH,Core,1%,½ Gallon,10/26/2015,2015,2,,1900000,,9.3
+US Dairy Plant A,Core,1%,½ Gallon,10/26/2015,2015,5,,1100000000,,4.9
+US Dairy Plant BJ,Core,1%,½ Gallon,1/11/2016,2016,0,,3500,,9.3
+US Dairy Plant AF,Core,1%,½ Gallon,1/11/2016,2016,4,,160000000,,8.8
+US Dairy Plant AD,Core,1%,½ Gallon,1/12/2016,2016,0,,8600,,9.4
+US Dairy Plant AE,Core,1%,½ Gallon,1/18/2016,2016,0,,82,E,9
+US Dairy Plant I,Core,1%,½ Gallon,2/8/2016,2016,0,,400,,9.1
+US Dairy Plant Q,Core,1%,qt,2/8/2016,2016,0,,450,,9.1
+US Dairy Plant N,Core,1%,½ Gallon,3/15/2016,2016,0,,170,E,9.1
+US Dairy Plant BL,Core,1%,½ Gallon,3/14/2016,2016,4,,240000000,,0.9
+US Dairy Plant B,Core,1%,½ Gallon,3/14/2016,2016,0,,680,,9
+US Dairy Plant H,Core,1%,qt,4/17/2016,2016,5,,1200000000,,0.5
+US Dairy Plant W,Core,1%,½ Gallon,4/18/2016,2016,5,,1300000000,,1.8
+US Dairy Plant F,Core,1%,½ Gallon,4/18/2016,2016,0,<,10,E,7.8
+US Dairy Plant AH,Core,1%,½ Gallon,5/23/2016,2016,5,,860000000,,0.6
+US Dairy Plant A,Core,1%,½ Gallon,5/24/2016,2016,0,,3600,,8.8
+US Dairy Plant I,Core,1%,½ Gallon,7/11/2016,2016,0,,6400,,7.8
+US Dairy Plant F,Core,1%,½ Gallon,8/8/2016,2016,0,,1600,,8.8
+US Dairy Plant A,Core,1%,½ Gallon,8/29/2016,2016,0,,300,E,9.5
+US Dairy Plant BJ,Core,1%,½ Gallon,8/29/2016,2016,0,,390,E,9.2
+US Dairy Plant AD,Core,1%,½ Gallon,8/30/2016,2016,0,,480,,9.4
+US Dairy Plant W,Core,1%,½ Gallon,8/29/2016,2016,3,,69000000,,1.7
+US Dairy Plant B,Core,1%,½ Gallon,9/26/2016,2016,3,,93000000,,1.4
+US Dairy Plant Q,Core,1%,qt,9/26/2016,2016,4,,640000000,,3.4
+US Dairy Plant AF,Core,1%,½ Gallon,9/26/2016,2016,0,,6500,,8
+US Dairy Plant BL,Core,1%,½ Gallon,10/24/2016,2016,0,,1900,,8.7
+US Dairy Plant N,Core,1%,½ Gallon,10/24/2016,2016,0,,360,E,7.5
+US Dairy Plant AE,Core,1%,½ Gallon,10/25/2016,2016,2,,5700000,,8.6
+US Dairy Plant I,Core,1%,½ Gallon,1/9/2017,2017,0,,820,,8.5
+US Dairy Plant Q,Core,1%,qt,1/9/2017,2017,0,,1600,,9.1
+US Dairy Plant AF,Core,1%,½ Gallon,1/9/2017,2017,0,,390,E,8.5
+US Dairy Plant AD,Core,1%,½ Gallon,1/10/2017,2017,0,,380,E,9.2
+US Dairy Plant B,Core,1%,½ Gallon,2/6/2017,2017,3,,2400000,,0
+US Dairy Plant BL,Core,1%,½ Gallon,2/7/2017,2017,2,>,40000000,E,4.6
+US Dairy Plant BJ,Core,1%,½ Gallon,3/13/2017,2017,0,,12000,,9.3
+US Dairy Plant F,Core,1%,½ Gallon,4/9/2017,2017,3,,170000000,,0.5
+US Dairy Plant H,Core,1%,½ Gallon,4/10/2017,2017,3,,120000000,,0
+US Dairy Plant A,Core,1%,½ Gallon,5/15/2017,2017,2,,11000,E,9.2
+US Dairy Plant A,Single Serve,1%,½ Pint,5/15/2017,2017,0,,2200,,8.8
+US Dairy Plant AE,Core,1%,½ Gallon,5/16/2017,2017,0,,280,E,8.5
+US Dairy Plant AE,Single Serve,1%,½ Pint,5/16/2017,2017,4,,210000000,,7.2
+US Dairy Plant N,Core,1%,½ Gallon,5/15/2017,2017,0,,33000,,8.8
+US Dairy Plant N,Single Serve,1%,½ Pint,5/15/2017,2017,3,,56000000,,4.7
+US Dairy Plant I,Core,1%,½ Gallon,7/10/2017,2017,0,,420,,9.2
+US Dairy Plant AD,Core,1%,½ Gallon,7/11/2017,2017,0,,130,E,9.5
+US Dairy Plant H,Core,1%,½ Gallon,7/10/2017,2017,3,,28000000,,2.2
+US Dairy Plant B,Core,1%,½ Gallon,8/7/2017,2017,0,,10,E,9.5
+US Dairy Plant Q,Core,1%,qt,8/7/2017,2017,0,,540,,9.4
+US Dairy Plant AE,Core,1%,½ Gallon,8/29/2017,2017,2,,14000,E,9.2
+US Dairy Plant AE,Single Serve,1%,½ Pint,8/29/2017,2017,4,,29000000,,8.7
+US Dairy Plant F,Core,1%,½ Gallon,8/31/2017,2017,0,,20000,,9.1
+US Dairy Plant BJ,Core,1%,½ Gallon,9/25/2017,2017,0,,290,E,9.1
+US Dairy Plant BJ,Single Serve,1%,½ Pint,9/25/2017,2017,0,,23000,,9.2
+US Dairy Plant AF,Core,1%,½ Gallon,9/25/2017,2017,0,,220,E,8.9
+US Dairy Plant BL,Core,1%,½ Gallon,9/25/2017,2017,1,,400,E,9.4
+US Dairy Plant N,Core,1%,½ Gallon,10/23/2017,2017,0,,100,E,9.1
+US Dairy Plant A,Core,1%,½ Gallon,10/23/2017,2017,0,,130,E,9.4
+US Dairy Plant A,Single Serve,1%,½ Pint,10/23/2017,2017,0,,12000,,8.8
+US Dairy Plant W,Core,1%,½ Gallon,10/23/2017,2017,4,,72000000,,2.6
+US Dairy Plant BO,Core,CL,½ Gallon,2/4/2013,2013,,<,2000,E,7.6
+US Dairy Plant H,Core,CL,½ Gallon,2/3/2013,2013,,,250000000,,5.2
+US Dairy Plant AQ,Core,CL,½ Gallon,2/5/2013,2013,,,41,E,6.4
+US Dairy Plant BM,Core,CL,½ Gallon,1/30/2013,2013,,<,10,E,6.6
+US Dairy Plant BM,Core,CL,½ Gallon,1/30/2013,2013,,<,10,E,6.8
+US Dairy Plant BT,Core,CL,½ Gallon,8/12/2013,2013,0,,6,SE,6.6
+US Dairy Plant BM,Core,CL,½ Gallon,9/9/2013,2013,2,,1200,,5.5
+US Dairy Plant H,Core,CL,½ Gallon,9/8/2013,2013,2,,360000,,8.6
+US Dairy Plant BO,Core,CL,½ Gallon,9/12/2013,2013,4,,2000000,,6.9
+US Dairy Plant BO,Core,CL,½ Gallon,9/10/2013,2013,2,,3100,,8.8
+US Dairy Plant BT,Core,CL,½ Gallon,2/4/2014,2014,0,,10,E,7
+US Dairy Plant BM,Core,CL,½ Gallon,3/11/2014,2014,0,,10,E,5.5
+US Dairy Plant H,Core,CL,½ Gallon,3/9/2014,2014,4,,150000000,E,2.2
+US Dairy Plant AQ,Core,CL,qt,3/10/2014,2014,5,,390000000,,7.4
+US Dairy Plant BN,Core,CL,½ Gallon,3/10/2014,2014,0,,150000,,6.4
+US Dairy Plant BR,Core,CL,½ Gallon,3/6/2014,2014,0,,11000,,6.1
+US Dairy Plant BO,Core,CL,½ Gallon,5/16/2014,2014,0,,110,SE,6
+US Dairy Plant BM,Core,CL,½ Gallon,9/3/2014,2014,3,,56000000,,8.4
+US Dairy Plant H,Core,CL,½ Gallon,10/6/2014,2014,4,,120000000,,0
+US Dairy Plant AQ,Core,CL,½ Gallon,10/6/2014,2014,0,,910,,8.6
+US Dairy Plant BN,Core,CL,½ Gallon,10/8/2014,2014,0,,250,E,7.5
+US Dairy Plant BO,Core,CL,½ Gallon,10/9/2014,2014,0,,1700,,6.3
+US Dairy Plant BQ,Core,CL,½ Gallon,10/25/2014,2014,4,,230000000,,6.2
+US Dairy Plant BM,Core,CL,½ Gallon,2/24/2015,2015,0,<,10,E,6.8
+US Dairy Plant H,Core,CL,½ Gallon,4/4/2015,2015,0,,51,E,9.1
+US Dairy Plant AQ,Core,CL,½ Gallon,4/7/2015,2015,4,,320000000,,0.7
+US Dairy Plant BN,Core,CL,½ Gallon,4/7/2015,2015,0,,41,E,7.4
+US Dairy Plant BO,Core,CL,½ Gallon,4/9/2015,2015,0,,10,E,8.2
+US Dairy Plant BM,Core,CL,½ Gallon,9/15/2015,2015,0,,170,E,6.5
+US Dairy Plant BO,Core,CL,½ Gallon,9/14/2015,2015,0,<,10,E,5.8
+US Dairy Plant H,Core,CL,½ Gallon,10/5/2015,2015,0,,100000,,8
+US Dairy Plant AQ,Core,CL,½ Gallon,10/5/2015,2015,0,,17000,,7.2
+US Dairy Plant BN,Core,CL,½ Gallon,10/6/2015,2015,0,,41,E,7.5
+US Dairy Plant BP,Core,CL,½ Gallon,10/6/2015,2015,4,,440000000,,0
+US Dairy Plant BQ,Core,CL,½ Gallon,10/27/2015,2015,0,,170,E,9.2
+US Dairy Plant BM,Core,CL,½ Gallon,3/15/2016,2016,3,,10000,M,6
+US Dairy Plant BO,Core,CL,½ Gallon,3/14/2016,2016,0,,92,E,0
+US Dairy Plant H,Core,CL,½ Gallon,4/17/2016,2016,5,,9200000000,,0
+US Dairy Plant BN,Core,CL,½ Gallon,4/19/2016,2016,0,,20,E,0
+US Dairy Plant AQ,Core,CL,½ Gallon,4/19/2016,2016,2,,990000,,3.4
+US Dairy Plant BQ,Core,CL,½ Gallon,5/21/2016,2016,0,,950,,5.6
+US Dairy Plant BP,Core,CL,½ Gallon,5/23/2016,2016,0,,130,SE,4
+US Dairy Plant H,Core,CL,½ Gallon,7/11/2016,2016,3,,9700000,,8.4
+US Dairy Plant AQ,Core,CL,½ Gallon,7/12/2016,2016,2,,1200000,,7.6
+US Dairy Plant BM,Core,CL,½ Gallon,8/9/2016,2016,0,,1800,,7.1
+US Dairy Plant BO,Core,CL,½ Gallon,8/31/2016,2016,0,,20,E,8.5
+US Dairy Plant BQ,Core,CL,½ Gallon,8/28/2016,2016,3,,200000000,,4.7
+US Dairy Plant BN,Core,CL,½ Gallon,10/17/2016,2016,0,,390,E,7.2
+US Dairy Plant BP,Core,CL,½ Gallon,10/25/2016,2016,3,,78000000,,0
+US Dairy Plant AQ,Core,CL,½ Gallon,2/7/2017,2017,3,,23000000,,4.9
+US Dairy Plant BO,Core,CL,½ Gallon,3/9/2017,2017,0,,1600,,7.1
+US Dairy Plant BR,Core,CL,½ Gallon,3/8/2017,2017,2,,19000000,,5.8
+US Dairy Plant H,Core,CL,½ Gallon,4/10/2017,2017,3,,2900000,,8.8
+US Dairy Plant BN,Core,CL,½ Gallon,4/11/2017,2017,0,,92,E,8.5
+US Dairy Plant BM,Core,CL,½ Gallon,4/11/2017,2017,0,,120,E,7.6
+US Dairy Plant BP,Core,CL,½ Gallon,4/12/2017,2017,4,,220000000,,5.9
+US Dairy Plant H,Core,CL,½ Gallon,7/10/2017,2017,0,,22000,,9.1
+US Dairy Plant BN,Core,CL,½ Gallon,8/7/2017,2017,2,,620000,,9.2
+US Dairy Plant BM,Core,CL,½ Gallon,8/7/2017,2017,0,,9600,,6.8
+US Dairy Plant BP,Core,CL,½ Gallon,9/26/2017,2017,0,,2500,,8.6
+US Dairy Plant BP,Core,CL,½ Gallon,9/22/2017,2017,3,,41000000,,8.8
+US Dairy Plant BO,Core,CL,½ Gallon,10/23/2017,2017,0,,1000,,8.9
+US Dairy Plant AQ,Core,1% CL,½ Gallon,3/10/2014,2014,3,,82000,E,8.1
+US Dairy Plant H,Core,1% CL,½ Gallon,10/5/2014,2014,0,,18000,,8.5
+US Dairy Plant AQ,Core,1% CL,½ Gallon,10/6/2014,2014,0,,1100,,8
+US Dairy Plant AQ,Core,1% CL,½ Gallon,4/7/2015,2015,0,,40000,,6.8
+US Dairy Plant AQ,Core,1% CL,½ Gallon,10/5/2015,2015,3,,18000000,,6.9
+US Dairy Plant AQ,Core,1% CL,½ Gallon,4/19/2016,2016,2,,12000000,,7.2
+US Dairy Plant H,Core,1% CL,½ Gallon,7/11/2016,2016,2,,3300000,,8.3
+US Dairy Plant AQ,Core,1% CL,½ Gallon,7/12/2016,2016,6,,11000000000,,0
+US Dairy Plant AQ,Core,1% CL,½ Gallon,2/7/2017,2017,0,,69000,,7.7
+US Dairy Plant BX ,Core,1.50%,½ Gallon,2/6/2017,2017,3,<,10000,E,9.5
+US Dairy Plant AQ,Core,Skim CL,½ Gallon,2/5/2013,2013,,,800,,0
+US Dairy Plant AQ,Core,Skim CL,½ Gallon,3/10/2014,2014,0,,8300,,7.7
+US Dairy Plant H,Core,Skim CL,½ Gallon,10/6/2014,2014,5,,840000000,,0.5
+US Dairy Plant AQ,Core,Skim CL,½ Gallon,10/6/2014,2014,0,,11000,,7
+US Dairy Plant AQ,Core,Skim CL,½ Gallon,4/7/2015,2015,5,,3400000000,,0.7
+US Dairy Plant AQ,Core,Skim CL,½ Gallon,10/5/2015,2015,0,,88000,,7.3
+US Dairy Plant H,Core,Skim CL,½ Gallon,4/17/2016,2016,5,,1000000000,,0
+US Dairy Plant AQ,Core,Skim CL,½ Gallon,4/19/2016,2016,3,,7800000,,7.4
+US Dairy Plant H,Core,Skim CL,½ Gallon,7/11/2016,2016,3,,25000000,,7.5
+US Dairy Plant AQ,Core,Skim CL,½ Gallon,7/12/2016,2016,2,>,40000000,E,0
+US Dairy Plant AQ,Core,Skim CL,½ Gallon,2/7/2017,2017,5,,2500000000,,2.7
+US Dairy Plant H,Core,Skim CL,½ Gallon,4/10/2017,2017,3,,75000000,,2.5
+US Dairy Plant H,Core,Skim CL,½ Gallon,7/10/2017,2017,3,,11000000,,6.9

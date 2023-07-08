@@ -1,0 +1,76 @@
+---
+title: "FollowUpVisit_Code"
+author: "Tim L"
+date: '2023-02-12'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+###Load Packages
+```{r}
+###Load Packages
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(rstatix)
+library(emmeans)
+library(car)
+library(wesanderson)
+library(forcats)
+library(brglm2)
+library(effectsize)
+library(lsr)
+```
+
+###Read Data
+```{r}
+##CSV file with raw data
+preinterventionALL <- read.csv("FollowUpVisit_Data.csv", na.strings = c("", "NA"))
+```
+
+
+###Filter Data
+```{r}
+#filter out just stress samples
+stress <- preinterventionALL %>% 
+  filter(Stress == "yes") %>% 
+  filter(SampleType == "milk" | SampleType == "sponge" | SampleType == "carton") %>% 
+  mutate(Plant = as.factor(Plant))
+
+
+#chi square and logistic regresssion
+smodel <- glm(PPC ~ Plant + LaneNumber + SampleType, data = stress, family = binomial, method = brglmFit)
+
+drop1(smodel, test = "Chisq")
+
+summary(smodel)
+
+emmeans(smodel, pairwise~Plant, type = "response")
+emmeans(smodel, pairwise~SampleType, type = "response")
+
+#descriptive stats
+sumstress <- stress %>% 
+  group_by(Plant, SampleType, PPC) %>% 
+  summarise(n = length(PPC)) %>% 
+  ungroup() %>% 
+  group_by(Plant, SampleType) %>% 
+  mutate(freq = 100*(n / sum(n)))
+
+#Summary of direct plating of samples (before stress tests)
+sumnonstress <- preinterventionALL %>% 
+  filter(Stress == "no") %>% 
+  filter(SampleType == "milk" | SampleType == "sponge" |
+  SampleType == "carton") %>% 
+  mutate(Plant = as.factor(Plant)) %>% 
+  group_by(Plant, SampleType, PPC) %>% 
+  summarise(n = length(PPC)) %>% 
+  ungroup() %>% 
+  group_by(Plant, SampleType) %>% 
+  mutate(freq = 100*(n / sum(n)))
+```
+

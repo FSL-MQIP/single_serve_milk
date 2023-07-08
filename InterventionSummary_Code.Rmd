@@ -1,0 +1,71 @@
+---
+title: "InterventionSummary_Code"
+author: "Tim L"
+date: '2023-02-25'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Load packages
+```{r}
+library(dplyr)
+library(vegan)
+library(ggplot2)
+library(readr)
+library(tidyverse)
+library(wesanderson)
+library(indicspecies)
+library(ggtext)
+library(lmerTest)
+library(brglm2)
+library(lsr)
+library(lme4)
+```
+
+###Data reading
+```{r}
+##read in csv files
+interventionPlates <- read.csv("InterventionSummary_Data.csv", na.strings = c("", "NA"))
+```
+
+
+#data cleaning and filtering
+```{r}
+#filter out inline and controls and errors
+lanePCs <- interventionPlates %>% 
+  filter(!is.na(Lane)) %>% 
+  filter(Lane != "LINE") %>% 
+  filter(APC != "ERROR")
+
+#assign GN contamination Y/N
+#first assign TNTC to large number and BDL to 0
+laneGN <- lanePCs %>% 
+  mutate(APC = as.character(APC)) %>% 
+  mutate(APC = replace(APC, APC == "TNTC", 10000000)) %>% 
+  mutate(APC = replace(APC, APC == "BDL", 0)) %>% 
+  mutate(CVTA = as.character(CVTA)) %>% 
+  mutate(CVTA = replace(CVTA, CVTA == "TNTC", 10000000)) %>% 
+  mutate(CVTA = replace(CVTA, CVTA == "BDL", 0)) %>% 
+  mutate(APC = as.numeric(APC)) %>% 
+  mutate(CVTA = as.numeric(CVTA)) %>% 
+  mutate(GNcontamination = if_else(CVTA > 0 & APC > 20000, "Y", "N")) %>% 
+  mutate(GNcontamination = as.factor(GNcontamination)) %>% 
+  mutate(PlantNumber = as.factor(PlantNumber))
+```
+
+#logistic regression
+```{r}
+interlogistic <- glm(GNcontamination ~ Treatment + PlantNumber + TimePoint + Lane, data = laneGN, family = binomial)
+
+
+summary(interlogistic)
+
+
+emmeans(interlogistic, pairwise~PlantNumber, type = "response")
+emmeans(interlogistic, pairwise~TimePoint, type = "response")
+emmeans(interlogistic, pairwise~Lane, type = "response")
+
+```

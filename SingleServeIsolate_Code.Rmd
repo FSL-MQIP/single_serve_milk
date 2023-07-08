@@ -1,0 +1,346 @@
+---
+title: "SingleServeIsolate_Code"
+author: "Tim L"
+date: '2023-02-13'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Load packages
+```{r}
+library(dplyr)
+library(vegan)
+library(ggplot2)
+library(readr)
+library(tidyverse)
+library(wesanderson)
+library(indicspecies)
+library(ggtext)
+```
+
+
+###Data reading
+```{r}
+##read in csv files
+
+allisos <- read.csv("SingleServeIsolate_Data.csv", na.strings = c("", "NA"))
+
+```
+
+###Subset and plot preintervention isolates
+```{r}
+#pre-intervention isolates (702)
+preinterventionisos <- allisos %>% 
+  filter(is.na(TimePoint)) %>% 
+  filter(SampleType != "inlineMilk")
+
+#characterized (664)
+precharacter <- preinterventionisos %>% 
+  filter(!is.na(Class) | !is.na(Order) | !is.na(Genus) | !is.na(Family)) 
+
+#Genus characterized
+pregenus <- precharacter %>% 
+  filter(!is.na(Genus))
+
+#class characterized
+preclass <- precharacter %>% 
+  filter(!is.na(Class))
+
+#order characterized
+preorder <- precharacter %>% 
+  filter(!is.na(Order))
+
+#family characterized 
+prefamily <- precharacter %>% 
+  filter(!is.na(Family))
+
+#genus core pre-intervention characterized isolates
+pregenuscore <- pregenus %>% 
+  #filter(SampleType == "Milk" | SampleType == "Sponge" | SampleType == "Carton") %>% 
+  filter(Stress == "yes")
+
+isolabels1 <- c("Carton", "Milk", "Mandrel", "Mandrel Hub")
+levelorder <- c("Carton", "Milk", "Sponge", "MandrelHub")
+
+ggplot(data=pregenuscore, aes(x=SampleType, fill = Genus)) +
+  geom_bar(position = "fill", aes(x = factor(SampleType, level = levelorder))) + 
+  xlab("Sample Type") + ylab("Proportion") +
+  theme(plot.title = element_text(face = "bold")) +
+  guides(fill=guide_legend(ncol=1)) +
+  theme(legend.key.size = unit(0.4, 'cm')) +
+    scale_fill_discrete(labels = c("*Acinetobacter*", "*Aureimonas*", "*Bacillus*", "*Curtobacterium*", "*Enterococcus*", "*Lactococcus*", "*Lysinibacillus*", "*Microbacterium*", "*Paenibacillus*", "*Pseudomonas*", "*Psychrobacter*", "*Rhodococcus*", "*Staphylococcus*", "*Stenotrophomonas*", "*Xanthomonas*")) +
+  theme(legend.text = element_markdown()) +
+  scale_x_discrete(labels = isolabels1)
+
+#ggsave("preintervention022823.jpeg", type = "cairo", dpi = 600)
+
+```
+
+###NMDS of preintervention isolates, including plots
+```{r}
+#create matrix for 408 isolates assigned to genus
+#Genus counted as present (1) or absent (0) for each combination of lane, facility number, and sample type
+preintermatrix <- pregenuscore %>% 
+  group_by(Lane, FacilityNumber, SampleType, Genus) %>% 
+  summarise(n()) %>%
+  mutate(presence = 1) %>%
+  pivot_wider(id_cols = c(Lane, FacilityNumber, SampleType), names_from = Genus, values_from = presence, values_fill = 0) %>% 
+  droplevels() %>% 
+  filter(!is.na(Lane))
+
+#set seed for reproducibility
+set.seed(88)
+
+##nmds and get nmds data scores for plotting
+preinter.nmds = metaMDS(preintermatrix[,-1:-3], k = 2, trymax = 100)
+
+preinter.datascores = as.data.frame(scores(preinter.nmds))
+preinter.datascores$Lane = preintermatrix$Lane
+preinter.datascores$FacilityNumber = preintermatrix$FacilityNumber
+preinter.datascores$SampleType = preintermatrix$SampleType
+
+head(preinter.datascores)
+
+#convert to factors
+preinter.datascores$Lane = as.factor(preinter.datascores$Lane)
+preinter.datascores$FacilityNumber = as.factor(preinter.datascores$FacilityNumber)
+preinter.datascores <- preinter.datascores %>% 
+  filter(!is.na(Lane))
+
+#plot facility number vs lane
+ggplot(preinter.datascores, aes(x = NMDS1, y = NMDS2)) + 
+    geom_point(size = 4, aes(shape = Lane, colour = FacilityNumber))+ 
+    theme(axis.text.y = element_text(colour = "black", size = 12, face = "bold"), 
+    axis.text.x = element_text(colour = "black", face = "bold", size = 12), 
+    legend.text = element_text(size = 12, face ="bold", colour ="black"), 
+    legend.position = "right", axis.title.y = element_text(face = "bold", size = 14), 
+    axis.title.x = element_text(face = "bold", size = 14, colour = "black"), 
+    legend.title = element_text(size = 14, colour = "black", face = "bold"), 
+    panel.background = element_blank(), panel.border = element_rect(colour = "black", fill = NA, size = 1.2),
+    legend.key=element_blank()) + 
+    labs(x = "NMDS1", colour = "Facility Number", y = "NMDS2", shape = "Lane")  + 
+    scale_colour_manual(values = c("#56B4E9", "#CC79A7", "#E69F00", "#D55E00")) +
+  scale_shape_manual(values=c(15, 16, 17, 18)) +
+  labs(title = "(a)")
+
+#ggsave("NMDSLaneFacility022823.jpeg", type = "cairo", dpi = 600)
+
+
+#plot sample type vs facility number 
+ggplot(preinter.datascores, aes(x = NMDS1, y = NMDS2)) + 
+    geom_point(size = 4, aes(shape = SampleType, colour = FacilityNumber))+ 
+    theme(axis.text.y = element_text(colour = "black", size = 12, face = "bold"), 
+    axis.text.x = element_text(colour = "black", face = "bold", size = 12), 
+    legend.text = element_text(size = 12, face ="bold", colour ="black"), 
+    legend.position = "right", axis.title.y = element_text(face = "bold", size = 14), 
+    axis.title.x = element_text(face = "bold", size = 14, colour = "black"), 
+    legend.title = element_text(size = 14, colour = "black", face = "bold"), 
+    panel.background = element_blank(), panel.border = element_rect(colour = "black", fill = NA, size = 1.2),
+    legend.key=element_blank()) + 
+    labs(x = "NMDS1", colour = "Facility Number", y = "NMDS2", shape = "Sample Type")  + 
+    scale_colour_manual(values = c("#56B4E9", "#CC79A7", "#E69F00", "#D55E00")) +
+  scale_shape_manual(values=c(15, 16, 17, 18)) +
+  labs(title = "(b)")
+
+#ggsave("NMDSSampleFacility022823.jpeg", type = "cairo", dpi = 600)
+
+#plot sample type vs lane 
+ggplot(preinter.datascores, aes(x = NMDS1, y = NMDS2)) + 
+    geom_point(size = 4, aes(shape = SampleType, colour = Lane))+ 
+    theme(axis.text.y = element_text(colour = "black", size = 12, face = "bold"), 
+    axis.text.x = element_text(colour = "black", face = "bold", size = 12), 
+    legend.text = element_text(size = 12, face ="bold", colour ="black"), 
+    legend.position = "right", axis.title.y = element_text(face = "bold", size = 14), 
+    axis.title.x = element_text(face = "bold", size = 14, colour = "black"), 
+    legend.title = element_text(size = 14, colour = "black", face = "bold"), 
+    panel.background = element_blank(), panel.border = element_rect(colour = "black", fill = NA, size = 1.2),
+    legend.key=element_blank()) + 
+    labs(x = "NMDS1", colour = "Lane", y = "NMDS2", shape = "Sample Type")  + 
+    scale_colour_manual(values = c("#56B4E9", "#CC79A7", "#E69F00", "#D55E00")) +
+  scale_shape_manual(values=c(15, 16, 17, 18))
+
+#ggsave("NMDSSampleLane022423.jpeg", type = "cairo", dpi = 600)
+
+
+#anosim for determining significance
+anosim(preintermatrix[,-1:-3], preintermatrix$SampleType, permutations =  9999)
+
+anosim(preintermatrix[,-1:-3], preintermatrix$FacilityNumber, permutations =  9999)
+
+anosim(preintermatrix[,-1:-3], preintermatrix$Lane, permutations =  9999)
+
+#multipatt for determining significant genera
+
+multipatt.sample = multipatt(preintermatrix[,-1:-3], preintermatrix$SampleType, control = how(nperm = 9999))
+
+summary(multipatt.sample)
+
+multipatt.facility = multipatt(preintermatrix[,-1:-3], preintermatrix$FacilityNumber, control = how(nperm = 9999))
+
+summary(multipatt.facility)
+```
+
+###Intervention subsetting and plots
+```{r}
+#subset intervention isolates
+intervention <- allisos %>% 
+  filter(!is.na(Intervention)) %>% 
+  filter(!is.na(Genus))
+
+#subset characterized isolates
+interventioncharacter <- allisos %>% 
+  filter(!is.na(Intervention)) %>% 
+  filter(!is.na(Class) | !is.na(Order) | !is.na(Family) | !is.na(Genus))
+
+##plots (only genus)
+#plot by  intervention
+ggplot(data=intervention, aes(x=Intervention, fill = Genus)) +
+  geom_bar(position = "fill") + 
+  xlab("Treatment") + ylab("Proportion") +
+  theme(plot.title = element_text(face = "bold")) +
+  guides(fill=guide_legend(ncol=1)) +
+  theme(legend.key.size = unit(0.4, 'cm')) +
+    scale_fill_discrete(labels = c("*Acinetobacter*", "*Bacillus*", "*Buttiauxella*", "*Leuconostoc*", "*Microbacterium*", "*Paenibacillus*", "*Pseudomonas*", "*Rhodococcus*", "*Staphylococcus*", "*Stenotrophomonas*")) +
+  theme(legend.text = element_markdown()) +
+  labs(title = "(a)")
+
+#ggsave("interisotreatment030123.jpeg", device = "jpg", type = "cairo", dpi = 600)
+
+#plot by sampling time point
+ggplot(data=intervention, aes(x=TimePoint, fill = Genus)) +
+  geom_bar(position = "fill") + 
+  xlab("Sampling Time Point") + ylab("Proportion") +
+  theme(plot.title = element_text(face = "bold")) +
+  #guides(fill=guide_legend(ncol=1)) +
+  #theme(legend.key.size = unit(0.4, 'cm')) +
+    scale_fill_discrete(labels = c("*Acinetobacter*", "*Bacillus*", "*Buttiauxella*", "*Leuconostoc*", "*Microbacterium*", "*Paenibacillus*", "*Pseudomonas*", "*Rhodococcus*", "*Staphylococcus*", "*Stenotrophomonas*")) +
+  theme(legend.text = element_markdown()) +
+  labs(title = "(d)") 
+
+#ggsave("interisotime030123.jpeg", device = "jpg", type = "cairo", dpi = 600)
+
+#plot by facility
+ggplot(data=intervention, aes(x=FacilityNumber, fill = Genus)) +
+  geom_bar(position = "fill") + 
+  xlab("Facility") + ylab("Proportion") +
+  theme(plot.title = element_text(face = "bold")) +
+  #guides(fill=guide_legend(ncol=1)) +
+  #theme(legend.key.size = unit(0.4, 'cm')) +
+    scale_fill_discrete(labels = c("*Acinetobacter*", "*Bacillus*", "*Buttiauxella*", "*Leuconostoc*", "*Microbacterium*", "*Paenibacillus*", "*Pseudomonas*", "*Rhodococcus*", "*Staphylococcus*", "*Stenotrophomonas*")) +
+  theme(legend.text = element_markdown()) +
+  labs(title = "(b)")
+
+#ggsave("interisofacility030123.jpeg", device = "jpg", type = "cairo", dpi = 600)
+
+#plot by milk type
+ggplot(data=intervention, aes(x=MilkType, fill = Genus)) +
+  geom_bar(position = "fill") + 
+  xlab("Milk Type") + ylab("Proportion") +
+  theme(plot.title = element_text(face = "bold")) +
+  guides(fill=guide_legend(ncol=1)) +
+  theme(legend.key.size = unit(0.4, 'cm')) +
+    scale_fill_discrete(labels = c("*Acinetobacter*", "*Bacillus*", "*Buttiauxella*", "*Leuconostoc*", "*Microbacterium*", "*Paenibacillus*", "*Pseudomonas*", "*Rhodococcus*", "*Staphylococcus*", "*Stenotrophomonas*")) +
+  theme(legend.text = element_markdown()) +
+  labs(title = "(c)")
+
+#ggsave("interisomilk061923.jpeg", device = "jpg", type = "cairo", dpi = 600)
+  
+
+```
+
+###NMDS of intervetnion isolates, including plots
+```{r}
+#create matrix for intervetnion isolates assigned to genus
+#Genus counted as present (1) or absent (0) for each combination of lane, facility number, and sample type
+intermatrix <- intervention %>% 
+  group_by(FacilityNumber, MilkType, Intervention, TimePoint, Genus) %>% 
+  summarise(n()) %>%
+  mutate(presence = 1) %>%
+  pivot_wider(id_cols = c(FacilityNumber, MilkType, Intervention, TimePoint), names_from = Genus, values_from = presence, values_fill = 0) %>% 
+  droplevels()
+
+#set seed for reproducibility
+set.seed(88)
+
+#create nmds matrix and extract data scores for plotting
+inter.nmds = metaMDS(intermatrix[,-1:-4], k = 2, trymax = 100)
+
+inter.datascores = as.data.frame(scores(inter.nmds))
+inter.datascores$FacilityNumber = intermatrix$FacilityNumber
+inter.datascores$MilkType = intermatrix$MilkType
+inter.datascores$Intervention = intermatrix$Intervention
+inter.datascores$TimePoint = intermatrix$TimePoint
+
+head(inter.datascores)
+
+#convert to factors
+
+inter.datascores$FacilityNumber = as.factor(inter.datascores$FacilityNumber)
+
+#nmds plot of facility number vs lane
+ggplot(inter.datascores, aes(x = NMDS1, y = NMDS2)) + 
+    geom_point(size = 4, aes(shape = MilkType, colour = FacilityNumber))+ 
+    theme(axis.text.y = element_text(colour = "black", size = 12, face = "bold"), 
+    axis.text.x = element_text(colour = "black", face = "bold", size = 12), 
+    legend.text = element_text(size = 12, face ="bold", colour ="black"), 
+    legend.position = "right", axis.title.y = element_text(face = "bold", size = 14), 
+    axis.title.x = element_text(face = "bold", size = 14, colour = "black"), 
+    legend.title = element_text(size = 14, colour = "black", face = "bold"), 
+    panel.background = element_blank(), panel.border = element_rect(colour = "black", fill = NA, size = 1.2),
+    legend.key=element_blank()) + 
+    labs(x = "NMDS1", colour = "Facility Number", y = "NMDS2", shape = "MilkType")  + 
+    scale_colour_manual(values = c("#56B4E9", "#CC79A7", "#E69F00", "#D55E00")) +
+  scale_shape_manual(values=c(15, 16, 17, 18)) 
+
+#ggsave("NMDSMilkFacility022423.jpeg", type = "cairo", dpi = 600)
+
+
+#nmds plot of sample type vs facility number 
+ggplot(inter.datascores, aes(x = NMDS1, y = NMDS2)) + 
+    geom_point(size = 4, aes(shape = Intervention, colour = FacilityNumber))+ 
+    theme(axis.text.y = element_text(colour = "black", size = 12, face = "bold"), 
+    axis.text.x = element_text(colour = "black", face = "bold", size = 12), 
+    legend.text = element_text(size = 12, face ="bold", colour ="black"), 
+    legend.position = "right", axis.title.y = element_text(face = "bold", size = 14), 
+    axis.title.x = element_text(face = "bold", size = 14, colour = "black"), 
+    legend.title = element_text(size = 14, colour = "black", face = "bold"), 
+    panel.background = element_blank(), panel.border = element_rect(colour = "black", fill = NA, size = 1.2),
+    legend.key=element_blank()) + 
+    labs(x = "NMDS1", colour = "Facility Number", y = "NMDS2", shape = "Intervention")  + 
+    scale_colour_manual(values = c("#56B4E9", "#CC79A7", "#E69F00", "#D55E00")) +
+  scale_shape_manual(values=c(15, 16, 17, 18))
+
+#ggsave("NMDSInterventionFacility022423.jpeg", type = "cairo", dpi = 600)
+
+#nmds plot of sample type vs lane 
+ggplot(inter.datascores, aes(x = NMDS1, y = NMDS2)) + 
+    geom_point(size = 4, aes(shape = MilkType, colour = Intervention))+ 
+    theme(axis.text.y = element_text(colour = "black", size = 12, face = "bold"), 
+    axis.text.x = element_text(colour = "black", face = "bold", size = 12), 
+    legend.text = element_text(size = 12, face ="bold", colour ="black"), 
+    legend.position = "right", axis.title.y = element_text(face = "bold", size = 14), 
+    axis.title.x = element_text(face = "bold", size = 14, colour = "black"), 
+    legend.title = element_text(size = 14, colour = "black", face = "bold"), 
+    panel.background = element_blank(), panel.border = element_rect(colour = "black", fill = NA, size = 1.2),
+    legend.key=element_blank()) + 
+    labs(x = "NMDS1", colour = "Intervention", y = "NMDS2", shape = "MilkType")  + 
+    scale_colour_manual(values = c("#56B4E9", "#CC79A7", "#E69F00", "#D55E00")) +
+  scale_shape_manual(values=c(15, 16, 17, 18))
+
+#ggsave("NMDSMilkIntervention022423.jpeg", type = "cairo", dpi = 600)
+
+
+#anosim for determining significance
+anosim(intermatrix[,-1:-4], intermatrix$MilkType, permutations =  9999)
+
+anosim(intermatrix[,-1:-4], intermatrix$FacilityNumber, permutations =  9999)
+
+anosim(intermatrix[,-1:-4], intermatrix$Intervention, permutations =  9999)
+
+anosim(intermatrix[,-1:-4], intermatrix$TimePoint, permutations =  9999)
+```
+
+

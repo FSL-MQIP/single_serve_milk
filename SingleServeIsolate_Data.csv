@@ -1,0 +1,873 @@
+FSL,Lane,Intervention,FacilityNumber,SampleType,MilkTypeSpec,MilkType,TimePoint,Stress,PlateType,Class,Order,Family,Genus,Species
+FSL L8-1177,1,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1178,1,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1179,1,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1180,1,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1181,1,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1182,1,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1183,1,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1184,1,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1185,1,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1186,1,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1187,1,,4,Milk,,,,yes,SPC,,,,Paenibacillus,sp.
+FSL L8-1188,1,,4,Milk,,,,yes,SPC,,,,,
+FSL L8-1189,1,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1190,1,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1191,1,,4,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1192,1,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1193,1,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1194,1,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1195,1,,4,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1196,1,,4,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1197,1,,4,Sponge,,,,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1198,1,,4,Carton,,,,yes,CVTA,,,Moraxellaceae,,
+FSL L8-1199,2,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1200,2,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1201,2,,4,Milk,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1202,2,,4,Milk,,,,yes,SPC,,,,Paenibacillus,sp.
+FSL L8-1203,2,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1204,2,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1205,2,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1206,2,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1207,2,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1208,2,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1209,2,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1210,2,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1211,2,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1212,2,,4,Milk,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1213,2,,4,Milk,,,,yes,SPC,,,,Paenibacillus,sp.
+FSL L8-1214,2,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1215,2,,4,Milk,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1216,2,,4,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1217,2,,4,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1218,2,,4,Sponge,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1219,2,,4,Sponge,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1220,2,,4,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1221,2,,4,Sponge,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1222,2,,4,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1223,2,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1224,2,,4,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1225,2,,4,Sponge,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1226,2,,4,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1227,2,,4,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1228,3,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1229,3,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1230,3,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1231,3,,4,Milk,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1232,3,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1233,3,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1234,3,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1235,3,,4,Milk,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1236,3,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1237,3,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1238,3,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1239,3,,4,Milk,,,,yes,SPC,,,,Paenibacillus,sp.
+FSL L8-1240,3,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1241,3,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1242,3,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1243,3,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1244,3,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1245,3,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1246,3,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1247,3,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1248,3,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1249,3,,4,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1250,3,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1251,3,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1252,4,,4,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1253,4,,4,Milk,,,,yes,CVTA,,,,Acinetobacter,sp.
+FSL L8-1254,4,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1255,4,,4,Milk,,,,yes,SPC,,,,Acinetobacter,sp.
+FSL L8-1256,4,,4,Milk,,,,yes,SPC,,,,Paenibacillus,sp.
+FSL L8-1257,4,,4,Milk,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1258,4,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1259,4,,4,Milk,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1260,4,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1261,4,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1262,4,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1263,4,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1264,4,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1265,4,,4,Milk,,,,yes,SPC,,,,Paenibacillus,sp.
+FSL L8-1266,4,,4,Milk,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1267,4,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1268,4,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1269,4,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1270,4,,4,Milk,,,,yes,SPC,,,,,
+FSL L8-1271,4,,4,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1272,4,,4,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1273,4,,4,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1274,4,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1275,4,,4,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1276,4,,4,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1277,4,,4,Sponge,,,,yes,SPC,,Enterobacterales,,,
+FSL L8-1278,4,,4,Sponge,,,,yes,SPC,,,,Acinetobacter,sp.
+FSL L8-1279,4,,4,Sponge,,,,yes,CVTA,,,Enterobacteriaceae,,
+FSL L8-1280,4,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1281,4,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1282,4,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1283,4,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1284,4,,4,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1285,4,,4,Sponge,,,,yes,SPC,,,,,
+FSL L8-1286,4,,4,Sponge,,,,yes,SPC,,,,Xanthomonas,sp.
+FSL L8-1287,4,,4,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1288,4,,4,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1289,4,,4,Carton,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1290,,,4,MandrelHub,,,,yes,SPC,,,,Acinetobacter,sp.
+FSL L8-1291,,,4,MandrelHub,,,,yes,SPC,,,,,
+FSL L8-1292,,,4,MandrelHub,,,,yes,CVTA,,,,Acinetobacter,sp.
+FSL L8-1293,,,4,MandrelHub,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1294,,,4,MandrelHub,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1295,,,4,MandrelHub,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1296,,,4,MandrelHub,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1297,,,4,MandrelHub,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1298,,,4,MandrelHub,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1299,1,,4,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1300,3,,4,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1301,3,,4,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1302,3,,4,Sponge,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1303,3,,4,Sponge,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1304,4,,4,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1305,4,,4,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1306,4,,4,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1307,4,,4,Sponge,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1308,4,,4,Sponge,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1309,4,,4,Sponge,,,,no,SPC,,,,,
+FSL L8-1310,,,4,MandrelHub,,,,no,SPC,,,,Stenotrophomonas,sp.
+FSL L8-1311,,,4,MandrelHub,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1312,,,4,MandrelHub,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1313,,,4,MandrelHub,,,,no,SPC,,,,Staphylococcus,sp.
+FSL L8-1314,,,4,MandrelHub,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1357,1,,2,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1358,1,,2,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1359,1,,2,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1360,1,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1361,1,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1362,1,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1363,1,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1364,1,,2,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1365,1,,2,Milk,,,,yes,SPC,,,,,
+FSL L8-1366,1,,2,Milk,,,,yes,SPC,,,,,
+FSL L8-1367,1,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1368,1,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1369,1,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1370,1,,2,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1371,1,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1372,1,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1373,1,,2,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1374,1,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1375,1,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1376,1,,2,Sponge,,,,yes,CVTA,,,,Psychrobacter,sp.
+FSL L8-1377,1,,2,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1378,1,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1379,1,,2,Sponge,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1380,1,,2,Sponge,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1381,1,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1382,1,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1383,1,,2,Sponge,,,,yes,SPC,,,,Curtobacterium,sp.
+FSL L8-1384,1,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1385,1,,2,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1386,1,,2,Sponge,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1387,1,,2,Sponge,,,,yes,SPC,,,,Psychrobacter,sp.
+FSL L8-1388,1,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1389,1,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1390,1,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1391,1,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1392,1,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1393,1,,2,Carton,,,,yes,CVTA,,,Comamonadaceae,,
+FSL L8-1394,1,,2,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1395,1,,2,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1396,1,,2,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1397,1,,2,Carton,,,,yes,SPC,,,Comamonadaceae,,
+FSL L8-1398,2,,2,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1399,2,,2,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1400,2,,2,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1401,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1402,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1403,2,,2,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1404,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1405,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1406,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1407,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1408,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1409,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1410,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1411,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1412,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1413,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1414,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1415,2,,2,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1416,2,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1417,2,,2,Sponge,,,,yes,CVTA,,,,Enterococcus,sp.
+FSL L8-1418,2,,2,Sponge,,,,yes,CVTA,,,,Stenotrophomonas,sp.
+FSL L8-1419,2,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1420,2,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1421,2,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1422,2,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1423,2,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1424,2,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1425,2,,2,Sponge,,,,yes,SPC,,,,Aureimonas,sp.
+FSL L8-1426,2,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1427,2,,2,Sponge,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1428,2,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1429,2,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1430,2,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1431,2,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1432,2,,2,Carton,,,,yes,CVTA,,,,Psychrobacter,sp.
+FSL L8-1433,2,,2,Carton,,,,yes,SPC,,,,Psychrobacter,sp.
+FSL L8-1434,2,,2,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1435,3,,2,Milk,,,,yes,CVTA,,,,Bacillus,sp.
+FSL L8-1436,3,,2,Milk,,,,yes,CVTA,,,,Lysinibacillus,sp.
+FSL L8-1437,3,,2,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1438,3,,2,Milk,,,,yes,CVTA,,,,Bacillus,sp.
+FSL L8-1439,3,,2,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1440,3,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1441,3,,2,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1442,3,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1443,3,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1444,3,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1445,3,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1446,3,,2,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1447,3,,2,Milk,,,,yes,SPC,,,,,
+FSL L8-1448,3,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1449,3,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1450,3,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1451,3,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1452,3,,2,Milk,,,,yes,SPC,,,,,
+FSL L8-1453,3,,2,Sponge,,,,yes,CVTA,,,,Stenotrophomonas,sp.
+FSL L8-1454,3,,2,Sponge,,,,yes,SPC,,,Microbacteriaceae,,
+FSL L8-1455,3,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1456,3,,2,Sponge,,,,yes,SPC,,,,,
+FSL L8-1457,3,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1458,3,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1459,3,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1460,3,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1461,3,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1462,3,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1463,3,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1464,3,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1465,3,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1466,3,,2,Sponge,,,,yes,SPC,,,Microbacteriaceae,,
+FSL L8-1467,3,,2,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1468,4,,2,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1469,4,,2,Milk,,,,yes,CVTA,,,,Paenibacillus,sp.
+FSL L8-1470,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1471,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1472,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1473,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1474,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1475,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1476,4,,2,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1477,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1478,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1479,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1480,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1481,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1482,4,,2,Milk,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1483,4,,2,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1484,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1485,4,,2,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1486,4,,2,Sponge,,,,yes,CVTA,,,,Psychrobacter,sp.
+FSL L8-1487,4,,2,Sponge,,,,yes,CVTA,,,,Psychrobacter,sp.
+FSL L8-1488,4,,2,Sponge,,,,yes,CVTA,,,,Bacillus,sp.
+FSL L8-1489,4,,2,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1490,4,,2,Sponge,,,,yes,SPC,,,Staphylococcaceae,,
+FSL L8-1491,4,,2,Sponge,,,,yes,SPC,,,,Psychrobacter,sp.
+FSL L8-1492,4,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1493,4,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1494,4,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1495,4,,2,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1496,4,,2,Sponge,,,,yes,SPC,,,,Acinetobacter,sp.
+FSL L8-1497,4,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1498,4,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1499,4,,2,Sponge,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1500,4,,2,Sponge,,,,yes,SPC,,,,Curtobacterium,sp.
+FSL L8-1501,4,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1502,4,,2,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1503,4,,2,Sponge,,,,yes,SPC,,,Microbacteriaceae,,
+FSL L8-1504,4,,2,Carton,,,,yes,SPC,,,,Acinetobacter,sp.
+FSL L8-1505,4,,2,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1506,4,,2,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1507,,,2,MandrelHub,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1508,,,2,MandrelHub,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1509,,,2,MandrelHub,,,,yes,SPC,,,,Curtobacterium,sp.
+FSL L8-1510,,,2,MandrelHub,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1511,1,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1512,1,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1513,1,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1514,1,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1515,1,,2,Sponge,,,,no,SPC,,,,Curtobacterium,sp.
+FSL L8-1516,1,,2,Sponge,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1517,2,,2,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1518,2,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1519,2,,2,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1520,2,,2,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1521,2,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1522,2,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1523,2,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1524,2,,2,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1525,2,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1526,2,,2,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1527,2,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1528,2,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1529,2,,2,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1530,2,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1531,2,,2,Sponge,,,,no,SPC,,,,Curtobacterium,sp.
+FSL L8-1532,2,,2,Sponge,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1533,3,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1534,3,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1535,3,,2,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1536,3,,2,Milk,,,,no,SPC,,,,,
+FSL L8-1537,3,,2,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1538,3,,2,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1539,3,,2,Sponge,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1540,3,,2,Sponge,,,,no,SPC,,,Microbacteriaceae,,
+FSL L8-1541,3,,2,Sponge,,,,no,SPC,,,Microbacteriaceae,,
+FSL L8-1542,3,,2,Sponge,,,,no,SPC,,,,Curtobacterium,sp.
+FSL L8-1543,4,,2,Milk,,,,no,SPC,,,,,
+FSL L8-1544,4,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1545,4,,2,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1546,4,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1547,4,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1548,4,,2,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1549,4,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1550,4,,2,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-1551,4,,2,Sponge,,,,no,SPC,,,Microbacteriaceae,,
+FSL L8-1552,1,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1553,1,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1554,1,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1555,1,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1556,1,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1557,1,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1558,1,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1559,1,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1560,1,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1561,1,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1562,1,,3,Milk,,,,yes,CVTA,,,,Bacillus,sp.
+FSL L8-1563,1,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1564,1,,3,Milk,,,,yes,CVTA,,,,,
+FSL L8-1565,1,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1566,1,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1567,1,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1568,1,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1569,1,,3,Sponge,,,,yes,SPC,,,,,
+FSL L8-1570,1,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1571,1,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1572,1,,3,Sponge,,,,yes,SPC,,,Enterobacteriaceae,,
+FSL L8-1573,1,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1574,1,,3,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1575,1,,3,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1576,1,,3,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1577,1,,3,Carton,,,,yes,CVTA,,,,,
+FSL L8-1578,1,,3,Carton,,,,yes,CVTA,,,,Lactococcus,sp.
+FSL L8-1579,1,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1580,1,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1581,1,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1582,1,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1583,1,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1584,1,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1585,1,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1586,1,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1587,1,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1588,1,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1589,1,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1590,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1591,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1592,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1593,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1594,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1595,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1596,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1597,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1598,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1599,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1600,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1601,2,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1602,2,,3,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1603,2,,3,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1604,2,,3,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1605,2,,3,Sponge,,,,yes,CVTA,,,,Staphylococcus,sp.
+FSL L8-1606,2,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1607,2,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1608,2,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1609,2,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1610,2,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1611,2,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1612,2,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1613,2,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1614,2,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1615,2,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1616,2,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1617,2,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1618,2,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1619,2,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1620,2,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1621,2,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1622,2,,3,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1623,2,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1624,2,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1625,2,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1626,2,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1627,3,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1628,3,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1629,3,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1630,3,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1631,3,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1632,3,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1633,3,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1634,3,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1635,3,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1636,3,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1637,3,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1638,3,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1639,3,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1640,3,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1641,3,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1642,3,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1643,3,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1644,3,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1645,3,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1646,3,,3,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1647,3,,3,Sponge,,,,yes,SPC,,,Enterobacteriaceae,,
+FSL L8-1648,3,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1649,3,,3,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1650,3,,3,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1651,3,,3,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1652,1,intervention,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1653,1,intervention,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,Bacillaceae,,
+FSL L8-1654,1,intervention,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1655,1,intervention,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1656,1,intervention,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1657,1,intervention,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1658,1,intervention,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,Bacillaceae,,
+FSL L8-1659,1,intervention,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Buttiauxella,sp.
+FSL L8-1660,1,intervention,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,Bacillaceae,,
+FSL L8-1661,1,intervention,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,Bacillaceae,,
+FSL L8-1662,2,intervention,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1663,2,intervention,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,Bacillaceae,,
+FSL L8-1664,2,intervention,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1665,2,intervention,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1666,2,intervention,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Bacillus,sp.
+FSL L8-1667,2,intervention,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1668,2,intervention,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,Bacillales,,,
+FSL L8-1669,2,intervention,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,Bacillaceae,,
+FSL L8-1670,2,intervention,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,Bacilli,,,,
+FSL L8-1671,3,control,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1672,3,control,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1673,3,control,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1674,3,control,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,Bacillaceae,,
+FSL L8-1675,3,control,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,Enterobacteriaceae,,
+FSL L8-1676,3,control,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1677,3,control,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1678,3,control,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,Bacillaceae,,
+FSL L8-1679,3,control,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1680,3,control,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Bacillus,sp.
+FSL L8-1681,4,control,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1682,4,control,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,,,Bacillaceae,,
+FSL L8-1683,4,control,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,Bacilli,,,,
+FSL L8-1684,4,control,3,Fat Free Chocolate,CS,Chocolate,Beg,no,SPC,Bacilli,,,,
+FSL L8-1685,4,control,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1686,4,control,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,Bacillaceae,,
+FSL L8-1687,4,control,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1688,4,control,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,Bacilli,,,,
+FSL L8-1689,4,control,3,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1690,,,3,inlineMilk,,,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1691,,,3,inlineMilk,,,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1692,1,,3,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1693,2,,3,Sponge,,,,yes,SPC,,,Enterobacteriaceae,,
+FSL L8-1694,3,,3,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1695,3,,3,Sponge,,,,yes,CVTA,,,Enterobacteriaceae,,
+FSL L8-1696,3,,3,Carton,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1697,3,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1698,3,,3,Carton,,,,yes,SPC,,,Enterobacteriaceae,,
+FSL L8-1699,3,,3,Carton,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1700,3,,3,Carton,,,,yes,SPC,,,Enterobacteriaceae,,
+FSL L8-1701,3,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1702,3,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1703,4,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1704,4,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1705,4,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1706,4,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1707,4,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1708,4,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1709,4,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1710,4,,3,Carton,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1711,4,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1712,4,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1713,4,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1714,4,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1715,4,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1716,4,,3,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1717,4,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1718,4,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1719,4,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1720,4,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1721,4,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1722,4,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1723,4,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1724,4,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1725,4,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1726,4,,3,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1727,4,,3,Milk,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1728,4,,3,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1729,4,,3,Sponge,,,,yes,CVTA,,,Carnobacteriaceae,,
+FSL L8-1730,4,,3,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1731,4,,3,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1732,4,,3,Sponge,,,,yes,SPC,,,,Psychrobacter,sp.
+FSL L8-1733,4,,3,Sponge,,,,yes,SPC,,,,Psychrobacter,sp.
+FSL L8-1734,4,,3,Sponge,,,,yes,SPC,,,Enterobacteriaceae,,
+FSL L8-1735,4,,3,Sponge,,,,yes,SPC,,,Listeriaceae,,
+FSL L8-1736,4,,1,Sponge,,,,yes,SPC,,,,,
+FSL L8-1737,4,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1738,4,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1739,4,,1,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1740,4,,1,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1741,4,,1,Sponge,,,,yes,SPC,,Bacillales,,,
+FSL L8-1742,4,,1,Sponge,,,,yes,SPC,,Bacillales,,,
+FSL L8-1743,4,,1,Sponge,,,,yes,SPC,,,,,
+FSL L8-1744,4,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1745,4,,1,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1746,4,,1,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1747,4,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1748,4,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1749,4,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1750,4,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1751,4,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1752,4,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1753,4,,1,Milk,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1754,4,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1755,4,,1,Milk,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1756,4,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1757,4,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1758,4,,1,Milk,,,,yes,SPC,,,,,
+FSL L8-1759,4,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1760,4,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1761,4,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1762,4,,1,Carton,,,,yes,SPC,,,Microbacteriaceae,,
+FSL L8-1763,4,,1,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1764,4,,1,Sponge,,,,yes,CVTA,,,,Psychrobacter,sp.
+FSL L8-1765,1,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1766,1,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1767,1,,1,Sponge,,,,yes,SPC,,Bacillales,,,
+FSL L8-1768,1,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1769,1,,1,Sponge,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1770,1,,1,Sponge,,,,yes,SPC,,,,Acinetobacter,sp.
+FSL L8-1771,1,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1772,1,,1,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1773,1,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1774,1,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1775,1,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1776,1,,1,Milk,,,,yes,SPC,,,,,
+FSL L8-1777,1,,1,Milk,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1778,1,,1,Milk,,,,yes,SPC,,,,,
+FSL L8-1779,1,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1780,1,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1781,1,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1782,1,,1,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1783,1,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1784,1,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1785,1,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1786,1,,1,Milk,,,,yes,SPC,,,,Paenibacillus,sp.
+FSL L8-1787,1,,1,Milk,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1788,1,,1,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1789,1,,1,Milk,,,,yes,SPC,,,,Paenibacillus,sp.
+FSL L8-1790,1,,1,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1791,1,,1,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1792,1,,1,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1793,1,,1,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1794,1,,1,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1795,1,,1,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1796,1,,1,Carton,,,,yes,SPC,,,Bacillaceae,,
+FSL L8-1797,2,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1798,2,,1,Sponge,,,,yes,SPC,,,,,
+FSL L8-1799,2,,1,Sponge,,,,yes,SPC,,,Enterobacteriaceae,,
+FSL L8-1800,2,,1,Sponge,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1801,2,,1,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1802,2,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1803,2,,1,Milk,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1804,2,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1805,2,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1806,2,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1807,2,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1808,2,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1809,2,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1810,2,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1811,2,,1,Milk,,,,yes,SPC,,,,,
+FSL L8-1812,2,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1813,2,,1,Milk,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1814,2,,1,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1815,2,,1,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1816,2,,1,Carton,,,,yes,SPC,,,,,
+FSL L8-1817,3,,1,Sponge,,,,yes,CVTA,,,Micrococcaceae,,
+FSL L8-1818,3,,1,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1819,3,,1,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1820,3,,1,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1821,3,,1,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1822,3,,1,Milk,,,,yes,CVTA,,,Enterobacteriaceae,,
+FSL L8-1823,3,,1,Milk,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1824,3,,1,Milk,,,,yes,CVTA,,,Paenibacillaceae,,
+FSL L8-1825,3,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1826,3,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1827,3,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1828,3,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1829,3,,1,Milk,,,,yes,SPC,,,,Bacillus,sp.
+FSL L8-1830,3,,1,Milk,,,,yes,SPC,,,,Paenibacillus,sp.
+FSL L8-1831,3,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1832,3,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1833,3,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1834,3,,1,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1835,3,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1836,3,,1,Milk,,,,yes,SPC,,,,Lysinibacillus,sp.
+FSL L8-1837,3,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1838,,,1,MandrelHub,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1839,,,1,MandrelHub,,,,no,SPC,,,Staphylococcaceae,,
+FSL L8-1840,,,1,MandrelHub,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1841,,,1,MandrelHub,,,,no,CVTA,,,,Pseudomonas,sp.
+FSL L8-1842,,,1,MandrelHub,,,,no,SPC,,,Bacillaceae,,
+FSL L8-1843,,,1,MandrelHub,,,,no,SPC,,,Micrococcaceae,,
+FSL L8-1844,,,1,MandrelHub,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-1845,1,control,1,Fat Free White,WS,White,Beg,no,SPC,,,,Leuconostoc,sp.
+FSL L8-1846,1,control,1,Fat Free White,WS,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1847,1,control,1,Fat Free White,WS,White,Beg,no,SPC,,,,Acinetobacter,sp.
+FSL L8-1848,1,control,1,Fat Free White,WS,White,Beg,no,SPC,Bacilli,,,,
+FSL L8-1849,1,control,1,Fat Free White,WS,White,Beg,no,SPC,,,,Acinetobacter,sp.
+FSL L8-1850,1,control,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1851,1,control,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1852,1,control,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1853,1,control,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,Enterobacteriaceae,,
+FSL L8-1854,1,control,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1855,2,intervention,1,Fat Free White,WS,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1856,2,intervention,1,Fat Free White,WS,White,Beg,no,SPC,,,,Leuconostoc,sp.
+FSL L8-1857,2,intervention,1,Fat Free White,WS,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1858,2,intervention,1,Fat Free White,WS,White,Beg,no,SPC,,,,Microbacterium,sp.
+FSL L8-1859,2,intervention,1,Fat Free White,WS,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1860,2,intervention,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Rhodococcus,sp.
+FSL L8-1861,2,intervention,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,Bacillaceae,,
+FSL L8-1862,2,intervention,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1863,3,intervention,1,Fat Free White,WS,White,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1864,3,intervention,1,Fat Free White,WS,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1865,3,intervention,1,Fat Free White,WS,White,Beg,no,SPC,,,,Leuconostoc,sp.
+FSL L8-1866,3,intervention,1,Fat Free White,WS,White,Beg,no,SPC,Bacilli,,,,
+FSL L8-1867,3,intervention,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1868,3,intervention,1,1% Chocolate,C1,Chocolate,End,no,SPC,Bacilli,,,,
+FSL L8-1869,3,intervention,1,1% Chocolate,C1,Chocolate,End,no,SPC,Bacilli,,,,
+FSL L8-1870,3,intervention,1,1% Chocolate,C1,Chocolate,End,no,SPC,Bacilli,,,,
+FSL L8-1871,4,control,1,Fat Free White,WS,White,Beg,no,SPC,,,,Bacillus,sp.
+FSL L8-1872,4,control,1,Fat Free White,WS,White,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1873,4,control,1,Fat Free White,WS,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1874,4,control,1,Fat Free White,WS,White,Beg,no,SPC,Bacilli,,,,
+FSL L8-1875,4,control,1,Fat Free White,WS,White,Beg,no,SPC,,,,Leuconostoc,sp.
+FSL L8-1876,4,control,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1877,4,control,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,,
+FSL L8-1878,4,control,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,Bacillaceae,,
+FSL L8-1879,4,control,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,,
+FSL L8-1880,,,1,inlineMilk,,,Beg,no,SPC,,,,Bacillus,sp.
+FSL L8-1881,,,1,inlineMilk,,,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1882,,,1,inlineMilk,,,Beg,no,SPC,,,,Bacillus,sp.
+FSL L8-1883,,,1,inlineMilk,,,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1884,,,1,inlineMilk,,,End,no,SPC,,,,Staphylococcus,sp.
+FSL L8-1885,1,control,2,Fat Free White,WS,White,Beg,no,SPC,,,,Microbacterium,sp.
+FSL L8-1886,1,control,2,Fat Free White,WS,White,Beg,no,SPC,,,,Microbacterium,sp.
+FSL L8-1887,1,control,2,Fat Free White,WS,White,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1888,1,control,2,Fat Free White,WS,White,Beg,no,SPC,,,,Bacillus,sp.
+FSL L8-1889,1,control,2,Fat Free White,WS,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1890,1,control,2,1% Chocolate,C1,Chocolate,End,no,SPC,Bacilli,,,,
+FSL L8-1891,1,control,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1892,1,control,2,1% Chocolate,C1,Chocolate,End,no,SPC,Bacilli,,,,
+FSL L8-1893,1,control,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1894,2,control,2,Fat Free White,WS,White,Beg,no,SPC,,,,Microbacterium,sp.
+FSL L8-1895,2,control,2,Fat Free White,WS,White,Beg,no,SPC,,,,Microbacterium,sp.
+FSL L8-1896,2,control,2,Fat Free White,WS,White,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1897,2,control,2,Fat Free White,WS,White,Beg,no,SPC,,,,Bacillus,sp.
+FSL L8-1898,2,control,2,Fat Free White,WS,White,Beg,no,SPC,,,,Bacillus,sp.
+FSL L8-1899,2,control,2,1% Chocolate,C1,Chocolate,End,no,SPC,Bacilli,,,,
+FSL L8-1900,2,control,2,1% Chocolate,C1,Chocolate,End,no,SPC,Bacilli,,,,
+FSL L8-1901,2,control,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,Caryophanaceae,,
+FSL L8-1902,2,control,2,1% Chocolate,C1,Chocolate,End,no,SPC,Bacilli,,,,
+FSL L8-1903,3,intervention,2,Fat Free White,WS,White,Beg,no,SPC,,,,Microbacterium,sp.
+FSL L8-1904,3,intervention,2,Fat Free White,WS,White,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1905,3,intervention,2,Fat Free White,WS,White,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1906,3,intervention,2,Fat Free White,WS,White,Beg,no,SPC,,,,Bacillus,sp.
+FSL L8-1907,3,intervention,2,Fat Free White,WS,White,Beg,no,SPC,,,,Bacillus,sp.
+FSL L8-1908,3,intervention,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Bacillus,sp.
+FSL L8-1909,3,intervention,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1910,3,intervention,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,,
+FSL L8-1911,3,intervention,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,,
+FSL L8-1912,4,intervention,2,Fat Free White,WS,White,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1913,4,intervention,2,Fat Free White,WS,White,Beg,no,SPC,,,,Microbacterium,sp.
+FSL L8-1914,4,intervention,2,Fat Free White,WS,White,Beg,no,SPC,,,,Bacillus,sp.
+FSL L8-1915,4,intervention,2,Fat Free White,WS,White,Beg,no,SPC,,,,Bacillus,sp.
+FSL L8-1916,4,intervention,2,Fat Free White,WS,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-1917,4,intervention,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1918,4,intervention,2,1% Chocolate,C1,Chocolate,End,no,SPC,Bacilli,,,,
+FSL L8-1919,4,intervention,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1920,4,intervention,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Bacillus,amyloliquefaciens
+FSL L8-1921,,,2,inlineMilk,,,Beg,no,SPC,,,,Microbacterium,sp.
+FSL L8-1922,3,,3,Carton,,,,yes,CVTA,,,Enterobacteriaceae,,
+FSL L8-1923,4,,3,Carton,,,,yes,CVTA,,,Enterobacteriaceae,,
+FSL L8-1924,4,,1,Sponge,,,,yes,SPC,,,,Rhodococcus,sp.
+FSL L8-1925,4,,1,Milk,,,,yes,SPC,,,,Paenibacillus,sp.
+FSL L8-1926,4,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1927,4,,1,Sponge,,,,yes,CVTA,,,,Bacillus,sp.
+FSL L8-1928,1,,1,Sponge,,,,yes,SPC,,,,Staphylococcus,sp.
+FSL L8-1929,1,,1,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1930,2,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1931,2,,1,Sponge,,,,yes,SPC,,,Enterobacteriaceae,,
+FSL L8-1932,2,,1,Milk,,,,yes,SPC,Bacilli,,,,
+FSL L8-1933,2,,1,Sponge,,,,yes,CVTA,,,Enterobacteriaceae,,
+FSL L8-1934,3,,1,Carton,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1935,3,,1,Sponge,,,,yes,CVTA,,,,Pseudomonas,sp.
+FSL L8-1936,3,,1,Sponge,,,,yes,SPC,,,,Pseudomonas,sp.
+FSL L8-1937,3,,1,Sponge,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1938,3,,1,Milk,,,,yes,SPC,,,,Microbacterium,sp.
+FSL L8-1939,2,intervention,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Microbacterium,sp.
+FSL L8-1940,3,intervention,1,Fat Free White,WS,White,Beg,no,SPC,,,,Microbacterium,sp.
+FSL L8-1963,2,intervention,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1964,3,intervention,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,Bacillaceae,,
+FSL L8-1965,4,control,1,1% Chocolate,C1,Chocolate,End,no,SPC,,,,,
+FSL L8-1966,1,control,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1967,2,control,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1968,3,intervention,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-1969,4,intervention,2,1% Chocolate,C1,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-2067,1,intervention,4,1% White,W1,White,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-2068,1,intervention,4,1% White,W1,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2069,1,intervention,4,1% White,W1,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2070,1,intervention,4,1% White,W1,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2071,1,intervention,4,1% White,W1,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2072,2,control,4,1% White,W1,White,Beg,no,SPC,,,,Acinetobacter,sp.
+FSL L8-2073,2,control,4,1% White,W1,White,Beg,no,SPC,,,,Leuconostoc,sp.
+FSL L8-2074,2,control,4,1% White,W1,White,Beg,no,SPC,,,,,
+FSL L8-2075,2,control,4,1% White,W1,White,Beg,no,SPC,,Bacillales,,,
+FSL L8-2076,2,control,4,1% White,W1,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2077,3,control,4,1% White,W1,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2078,3,control,4,1% White,W1,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2079,3,control,4,1% White,W1,White,Beg,no,SPC,,,,Stenotrophomonas,sp.
+FSL L8-2080,3,control,4,1% White,W1,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2081,3,control,4,1% White,W1,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2082,4,intervention,4,1% White,W1,White,Beg,no,SPC,,,,Leuconostoc,sp.
+FSL L8-2083,4,intervention,4,1% White,W1,White,Beg,no,SPC,Bacilli,,,,
+FSL L8-2084,4,intervention,4,1% White,W1,White,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-2085,4,intervention,4,1% White,W1,White,Beg,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2086,4,intervention,4,1% White,W1,White,Beg,no,SPC,,,,Paenibacillus,sp.
+FSL L8-2087,1,intervention,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Stenotrophomonas,sp.
+FSL L8-2088,1,intervention,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-2089,1,intervention,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2090,1,intervention,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-2091,1,intervention,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2092,2,control,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,Bacillales,,,
+FSL L8-2093,2,control,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Staphylococcus,sp.
+FSL L8-2094,2,control,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-2095,2,control,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,,
+FSL L8-2096,2,control,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2097,3,control,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Bacillus,sp.
+FSL L8-2098,3,control,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-2099,3,control,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2100,3,control,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Paenibacillus,sp.
+FSL L8-2101,3,control,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Bacillus,sp.
+FSL L8-2102,3,control,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2103,4,intervention,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,,
+FSL L8-2104,4,intervention,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Leuconostoc,sp.
+FSL L8-2105,4,intervention,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2106,4,intervention,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2107,4,intervention,4,Fat Free Chocolate,CS,Chocolate,End,no,SPC,,,,Bacillus,sp.
+FSL L8-2108,,,4,inlineMilk,,,,no,SPC,,,,,
+FSL L8-2109,,,4,inlineMilk,,,,no,SPC,,,,,
+FSL L8-2110,,,4,inlineMilk,,,,no,CVTA,,,,Pseudomonas,sp.
+FSL L8-2239,1,,1,Sponge,,,,no,SPC,,,,Staphylococcus,sp.
+FSL L8-2240,1,,1,Sponge,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2241,1,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2242,1,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2243,1,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2244,1,,1,Milk,,,,no,SPC,,,,,
+FSL L8-2245,2,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2246,2,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2247,2,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2248,2,,1,Milk,,,,no,SPC,,,,,
+FSL L8-2249,2,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2250,2,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2251,2,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2252,2,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2253,3,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2254,3,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2255,3,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2256,3,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2257,3,,1,Milk,,,,no,SPC,,,Micrococcaceae,,
+FSL L8-2258,3,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2259,4,,1,Sponge,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2260,4,,1,Sponge,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2261,4,,1,Sponge,,,,no,SPC,,,,Sphingobium,sp.
+FSL L8-2262,4,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2263,4,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2264,4,,1,Milk,,,,no,SPC,Bacilli,,,,
+FSL L8-2265,4,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2266,4,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2267,4,,1,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2268,4,,1,Milk,,,,no,SPC,,,,Streptococcus,sp.
+FSL L8-2269,2,,3,Sponge,,,,no,SPC,,,Enterobacteriaceae,,
+FSL L8-2270,2,,3,Sponge,,,,no,SPC,,,Micrococcaceae,,
+FSL L8-2271,2,,3,Sponge,,,,no,SPC,,,Enterobacteriaceae,,
+FSL L8-2272,2,,3,Sponge,,,,no,CVTA,,,Enterobacteriaceae,,
+FSL L8-2273,2,,3,Milk,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2274,2,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2275,2,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2276,2,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2277,2,,3,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-2278,2,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2279,2,,3,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-2280,2,,3,Milk,,,,no,CVTA,,,,Pseudomonas,sp.
+FSL L8-2281,2,,3,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-2282,2,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2283,2,,3,Milk,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2284,2,,3,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-2285,2,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2286,2,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2287,1,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2288,1,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2289,1,,3,Milk,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2290,1,,3,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-2291,1,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2292,1,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2293,1,,3,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-2294,1,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2295,1,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2296,1,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2297,1,,3,Carton,,,,no,SPC,,,,Staphylococcus,sp.
+FSL L8-2298,1,,3,Carton,,,,no,SPC,,,,Staphylococcus,sp.
+FSL L8-2299,3,,3,Carton,,,,no,SPC,,,,,
+FSL L8-2300,3,,3,Carton,,,,no,SPC,,,Enterobacteriaceae,,
+FSL L8-2301,3,,3,Carton,,,,no,CVTA,,,Enterobacteriaceae,,
+FSL L8-2302,3,,3,Milk,,,,no,CVTA,,,,Pseudomonas,sp.
+FSL L8-2303,3,,3,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-2304,3,,3,Milk,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2305,3,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2306,3,,3,Milk,,,,no,CVTA,,,,Pseudomonas,sp.
+FSL L8-2307,1,,3,Milk,,,,no,CVTA,,,,Pseudomonas,sp.
+FSL L8-2308,2,,3,Carton,,,,no,SPC,,,,Staphylococcus,sp.
+FSL L8-2309,2,,3,Sponge,,,,no,SPC,,,Enterobacteriaceae,,
+FSL L8-2310,2,,3,Sponge,,,,no,SPC,,,Micrococcaceae,,
+FSL L8-2311,2,,3,Sponge,,,,no,CVTA,,,Enterobacteriaceae,,
+FSL L8-2312,2,,3,Sponge,,,,no,SPC,,,Enterobacteriaceae,,
+FSL L8-2313,2,,3,Sponge,,,,no,SPC,,,Micrococcaceae,,
+FSL L8-2314,2,,3,Sponge,,,,no,CVTA,,,,Staphylococcus,sp.
+FSL L8-2315,2,,3,Sponge,,,,no,SPC,,,Micrococcaceae,,
+FSL L8-2316,2,,3,Sponge,,,,no,SPC,,,Enterobacteriaceae,,
+FSL L8-2317,4,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2318,4,,3,Milk,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2319,4,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2320,4,,3,Milk,,,,no,CVTA,,,,Pseudomonas,sp.
+FSL L8-2321,4,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2322,4,,3,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-2323,4,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2324,4,,3,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-2325,4,,3,Milk,,,,no,SPC,,,,Staphylococcus,sp.
+FSL L8-2326,4,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2327,3,,3,Milk,,,,no,SPC,,,,Staphylococcus,sp.
+FSL L8-2328,3,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2329,3,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2330,3,,3,Milk,,,,no,CVTA,,,,Pseudomonas,sp.
+FSL L8-2331,3,,3,Milk,,,,no,SPC,,,,Microbacterium,sp.
+FSL L8-2332,3,,3,Milk,,,,no,SPC,,,,Pseudomonas,sp.
+FSL L8-2333,4,,3,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-2334,4,,3,Milk,,,,no,SPC,,,,Bacillus,sp.
+FSL L8-2335,3,,3,Carton,,,,no,SPC,,,Enterobacteriaceae,,
+FSL L8-2336,3,,3,Carton,,,,no,CVTA,,,Enterobacteriaceae,,
+FSL L8-2337,3,,3,Carton,,,,no,SPC,,,,Staphylococcus,sp.

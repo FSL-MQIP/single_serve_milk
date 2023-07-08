@@ -1,0 +1,501 @@
+---
+title: "InitialSamplingVisits_Code"
+author: "Tim L"
+date: "7/8/2023"
+output: git_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+###Load Packages
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(rstatix)
+library(emmeans)
+library(car)
+library(wesanderson)
+library(forcats)
+library(brglm2)
+library(effectsize)
+library(lsr)
+```
+
+###Read Data
+```{r}
+##CSV file with raw data
+rawdata <- read.csv("InitialSamplingVisits_Data.csv", na.strings = c("", "NA"))
+```
+
+
+###Transform and summarize duplicate platings
+```{r}
+#set detection limit, then log transform, assign TNTC and atypical to actual numbers
+pc_log <- rawdata %>% 
+  mutate(Concentration = replace(Concentration, Concentration==0, 5)) %>% 
+  mutate(Concentration = replace(Concentration, TNTC_Atyp == "TNTC", 20000)) %>% 
+  mutate(Concentration = replace(Concentration, TNTC_Atyp == "atypical", 5)) %>% 
+  mutate(Concentration = log10(Concentration)) 
+
+#mean of spc and cvta duplicates, assign GN spoilage
+pc_summary <- pc_log %>% 
+  group_by(Plant, Trial, MilkType, BME, BME_Rep, Day, PlateType) %>% 
+  drop_na(PlateType) %>% 
+  summarise(Concentration = mean(Concentration)) %>% 
+  spread(PlateType, Concentration) %>% 
+  mutate(GNspoilage = if_else(CVTA > log10(5) & SPC >= log10(20000), "Y", "N")) %>%
+  drop_na(GNspoilage) %>% 
+  drop_na(CVTA) %>% 
+  drop_na(SPC)
+
+
+#Gram negative contamination assigned to plates with detectable growth on CVTA
+pc_log_summary_GN <- pc_log %>% 
+  group_by(Plant, Trial, MilkType, BME, BME_Rep, Day, PlateType) %>% 
+  drop_na(PlateType) %>% 
+  summarise(Concentration = mean(Concentration)) %>% 
+  spread(PlateType, Concentration) %>% 
+  mutate(GramNeg = if_else(CVTA > log10(5), "Y", "N")) %>%
+  drop_na(GramNeg) %>% 
+  drop_na(CVTA) %>% 
+  drop_na(SPC)
+```
+
+###Descriptive Stats
+```{r}
+#mean spc and cvta grouped by plant, trial, and day
+pc_PlantTrialDay <- pc_summary %>% 
+  ungroup() %>% 
+  group_by(Plant, Trial, Day) %>% 
+  summarise_at(c("SPC", "CVTA"), mean, na.rm = TRUE)
+
+#mean spc and cvta grouped by trial and day
+pc_TrialDay <- pc_summary %>% 
+  ungroup() %>% 
+  group_by(Trial, Day) %>% 
+  summarise_at(c("SPC", "CVTA"), mean, na.rm = TRUE)
+
+#mean spc and cvta grouped by day
+pc_Day <- pc_summary %>% 
+  ungroup() %>% 
+  group_by(Day) %>% 
+  summarise_at(c("SPC", "CVTA"), mean, na.rm = TRUE)
+
+#mean spc grouped by day and gram-negative contamination
+pc_DayGN <- pc_log_summary_GN %>% 
+  ungroup() %>% 
+  group_by(Day, GramNeg) %>% 
+  summarise_at(c("SPC"), mean, na.rm = TRUE)
+
+#stdv of spc grouped by day and gram-negative contamination
+pc_DayGN_stdv <- pc_log_summary_GN %>% 
+  ungroup() %>% 
+  group_by(Day, GramNeg) %>% 
+  summarise_at(c("SPC"), sd, na.rm = TRUE)
+```
+
+###Day 7 and 14 data subset and individual trial plate counts summaries
+```{r}
+#subset day 7 and 14 plate counts
+pc_summary_d7d14 <- pc_summary %>% 
+  filter(Day != 0) %>% 
+  mutate(Day = factor(Day))
+
+#subset trial 1 plate counts
+pc_summary_t1 <- pc_summary %>% 
+  filter(Trial == 1)
+
+#Trial 1 mean plate counts by day
+pc_Day_t1 <- pc_summary_t1 %>% 
+  ungroup() %>% 
+  group_by(Day) %>% 
+  summarise_at(c("CVTA", "SPC"), mean, na.rm = TRUE)
+
+#subset trial 2 plate counts
+pc_summary_t2 <- pc_summary %>% 
+  filter(Trial == 2)
+
+#Trial 2 mean plate counts by day
+pc_Day_t2 <- pc_summary %>% 
+  ungroup() %>% 
+  group_by(Day) %>% 
+  summarise_at(c("CVTA", "SPC"), mean, na.rm = TRUE)
+```
+
+###Sensory data
+```{r}
+#filter out sensory data from raw data
+sensory_summary <- rawdata %>% 
+  drop_na(OVERALL.FLAVOR.SCORE) %>% 
+  mutate(flavorscore = OVERALL.FLAVOR.SCORE) %>% 
+  group_by(Plant, Trial, MilkType, BME, BME_Rep, Day) %>% 
+  summarise(flavorscore = mean(flavorscore)) %>% 
+  mutate(Day = as.factor(Day))
+
+#summarize sensory by plant, trial, day
+sensory_PlantTrialDay <- sensory_summary %>% 
+  group_by(Plant, Trial, Day) %>% 
+  summarise_at(c("flavorscore"), mean, na.rm = TRUE)
+
+#summarize by trial and day
+sensory_TrialDay <- sensory_summary %>% 
+  group_by(Trial, Day) %>% 
+  summarise_at(c("flavorscore"), mean, na.rm = TRUE)
+
+#summarize by day
+sensory_Day <- sensory_summary %>% 
+  group_by(Day) %>% 
+  summarise_at(c("flavorscore"), mean, na.rm = TRUE)
+
+#mean flavor scores for trial 1
+sensory_t1 <- sensory_summary %>% 
+  filter(Trial == 1) %>% 
+  ungroup() %>% 
+  group_by(Day) %>% 
+  summarise(flavorscore = mean(flavorscore))
+
+#mean flavor scores for trial 2
+sensory_t2 <- sensory_summary %>% 
+  filter(Trial == 2) %>% 
+  ungroup() %>% 
+  group_by(Day) %>% 
+  summarise(flavorscore = mean(flavorscore))
+```
+
+
+###combine plate count and sensory summary data
+```{r}
+#combine plate count and sensory data
+pc_sensory_summary <- merge(pc_log_summary_GN, sensory_summary)
+
+#mean sensory by day and gn contamination
+sensory_DayGN <- pc_sensory_summary %>% 
+  ungroup() %>% 
+  group_by(Day, GramNeg) %>% 
+  summarise_at(c("flavorscore"), mean, na.rm = TRUE)
+
+#stdv sensory by day and gn contamination
+sensory_DayGN_stdv <- pc_sensory_summary %>% 
+  ungroup() %>% 
+  group_by(Day, GramNeg) %>% 
+  summarise_at(c("flavorscore"), sd, na.rm = TRUE)
+  
+#subset for days 7 and 14
+pc_sensory_d7d14 <- pc_sensory_summary %>% 
+  filter(Day == 7 | Day == 14) %>% 
+  mutate(Day = as.factor(Day)) %>% 
+  mutate(Trial = as.factor(Trial))
+```
+
+
+###logistic regression analysis for GN spoilage
+```{r}
+#convert predictor variables to factors
+pc_summary_d7d14$GNspoilage <- as.factor(pc_summary_d7d14$GNspoilage)
+pc_summary_d7d14$Plant <- as.factor(pc_summary_d7d14$Plant)
+pc_summary_d7d14$BME_Rep <- as.factor(pc_summary_d7d14$BME_Rep)
+pc_summary_d7d14$Trial <- as.factor(pc_summary_d7d14$Trial)
+
+#create logistic (binomial) regression model for trial 1
+model_T1 <- glm(GNspoilage ~ Plant + MilkType + BME, data = subset(pc_summary_d7d14, Trial == 1), family = binomial, method = brglmFit)
+
+#summarize trial 1 model
+summary(model_T1)
+
+#trial 1 pairwise comparisons
+emmeans(model_T1, pairwise~MilkType, type = "response")
+
+emmeans(model_T1, pairwise~Plant, type = "response")
+
+emmeans(model_T1, pairwise~BME, type = "response")
+
+#create model for trial 2
+model_T2 <- glm(GNspoilage ~ Plant + MilkType + BME + BME_Rep, data = subset(pc_summary_d7d14, Trial == 2), family = binomial, method = brglmFit)
+
+#summarise trial 2 model
+summary(model_T2)
+
+#pairwise comparisons for trial 2
+emmeans(model_T2, pairwise~MilkType, type = "response")
+
+emmeans(model_T2, pairwise~Plant, type = "response")
+
+emmeans(model_T2, pairwise~BME, type = "response")
+
+emmeans(model_T2, pairwise~BME_Rep, type = "response")
+
+emmeans(model_T2, pairwise~Plant|MilkType, type = "response")
+
+#create model for trial 1 and 2 combined
+model_T1T2 <- glm(GNspoilage ~ Plant + MilkType + BME + Trial, data = pc_summary_d7d14, family = binomial, method = brglmFit)
+
+#summarise combined trial model
+summary(model_T1T2)
+
+#pairwise comparisons for trials 1 and 2 combined
+emmeans(model_T1T2, pairwise~MilkType, type = "response")
+
+emmeans(model_T1T2, pairwise~Plant, type = "response")
+
+emmeans(model_T1T2, pairwise~BME, type = "response")
+
+emmeans(model_T1T2, pairwise~Trial, type = "response")
+```
+
+
+###ANOVAs for sensory and plate counts
+```{r}
+#SPC anova for days comparing samples with and without GN spoilage on 7 and 14
+#don't include 0 because no samples had GN spoilage on day 0
+aov_SPC_d7d14 <- glm(SPC ~ Day + GramNeg + (Day*GramNeg) + MilkType, data = pc_summary_d7d14_GN)
+
+#summaries
+summary(aov_SPC_d7d14)
+
+aov(aov_SPC_d7d14)
+
+#pairwise comparisons
+emmeans(aov_SPC_d7d14, pairwise ~ GramNeg)
+emmeans(aov_SPC_d7d14, pairwise ~ Day)
+emmeans(aov_SPC_d7d14, pairwise ~ MilkType)
+emmeans(aov_SPC_d7d14, pairwise ~ GramNeg | Day)
+
+#effect size
+effectsize(aov(aov_SPC_d7d14))
+
+#day 7 and 14 sensory anova comparing GN spoilage, day, and milk type
+aov_sensory <- glm(flavorscore ~ GramNeg + Day + MilkType, data = pc_sensory_d7d14)
+
+#summaries
+summary(aov_sensory)
+
+aov(aov_sensory)
+
+#effect size
+effectsize(aov(aov_sensory))
+
+#pairwise comparisons
+emmeans(aov_sensory, pairwise ~ GramNeg | Day)
+emmeans(aov_sensory, pairwise ~ Day)
+emmeans(aov_sensory, pairwise ~ MilkType)
+```
+
+###Grouped GN Frequencies
+```{r}
+#GN spoilage frequency by plant, trial, day
+GNfreq_PlantTrialDay <- pc_summary %>%
+  group_by(Plant, Trial, Day, GNspoilage) %>% 
+  summarise(n = length(GNspoilage)) %>%
+  mutate(n = replace_na(n, 0)) %>% 
+  mutate(freq = 100*(n / sum(n)))
+
+#GN spoilage frequency by trial, milk type, day
+GNfreq_MilkTypeTrialDay <- pc_summary %>%
+  group_by(MilkType, Trial, Day, GNspoilage) %>% 
+  summarise(n = length(GNspoilage)) %>%
+  mutate(n = replace_na(n, 0)) %>% 
+  mutate(freq = 100*(n / sum(n)))
+
+#GN spoilage frequency by BME, trial, milk type, day
+GNfreq_TimePointMilkTypeTrialDay <- pc_summary %>%
+  group_by(BME, Trial, Day, GNspoilage) %>% 
+  summarise(n = length(GNspoilage)) %>%
+  mutate(n = replace_na(n, 0)) %>% 
+  mutate(freq = 100*(n / sum(n)))
+
+#GN spoilage frequency by lane, trial, milk type, day
+GNfreq_LaneMilkTypeTrialDay <- pc_summary %>%
+  group_by(BME_Rep, Trial, Day, GNspoilage) %>% 
+  summarise(n = length(GNspoilage)) %>%
+  mutate(n = replace_na(n, 0)) %>% 
+  mutate(freq = 100*(n / sum(n)))
+
+
+#GN spoilage by trial and day
+GNfreq_TrialDay <- pc_summary %>%
+  group_by(Trial, Day, GNspoilage) %>% 
+  summarise(n = length(GNspoilage)) %>%
+  mutate(n = replace_na(n, 0)) %>% 
+  mutate(freq = 100*(n / sum(n)))
+
+#GN spoilage by day
+GNfreq_Day <- pc_summary %>%
+  group_by(Day, GNspoilage) %>% 
+  summarise(n = length(GNspoilage)) %>%
+  mutate(n = replace_na(n, 0)) %>% 
+  mutate(freq = 100*(n / sum(n)))
+```
+
+###Supplemental Figure 2, Day 14 GN frequencies
+```{r}
+##BY FACILITY
+
+#GN spoilage by plant day 14
+GNfreq_PlantD14 <- pc_summary %>%
+  filter(Day == 14) %>% 
+  group_by(Plant, Day, GNspoilage) %>% 
+  summarise(n = length(GNspoilage)) %>%
+  mutate(n = replace_na(n, 0)) %>% 
+  mutate(freq = 100*(n / sum(n))) %>% 
+  filter(GNspoilage == "Y")
+
+#plot
+ggplot(GNfreq_PlantD14, aes(Plant)) +
+  geom_col(aes(y = freq)) +
+  ylab("Gram-negative spoilage frequency (%)") +
+  ylim(0,100) +
+  xlab("Facility") +
+  labs(fill = "Plant", title = "(a)") +
+  theme(plot.title = element_text(size=14, face="bold"))
+          
+#ggsave("FacilityGnfreq063023.jpeg", device = "jpg", type = "cairo", dpi = 600, width = 3.5, height = 3, units = "in")
+
+##BY MILK TYPE
+
+GNfreq_MilkTypeD14 <- pc_summary %>%
+  filter(Day == 14) %>% 
+  group_by(Plant, MilkType, GNspoilage) %>% 
+  summarise(n = length(GNspoilage)) %>% 
+  mutate(n = replace_na(n, 0)) %>% 
+  mutate(freq = 100*(n / sum(n))) %>% 
+  filter(GNspoilage == "Y")
+
+ggplot(GNfreq_MilkTypeD14, aes(MilkType)) +
+  geom_col(aes(y = freq)) +
+  facet_grid(~Plant) +
+  ylab("Gram-negative spoilage frequency (%)") +
+  ylim(0,100) +
+  xlab("Milk Type") +
+  labs( title = "(b)") +
+  scale_x_discrete(limits = rev) +
+  theme(plot.title = element_text(size=14, face="bold"),   axis.text.x = element_text(angle = 60, hjust = 1))
+
+#ggsave("MilkTypeGNfreq063023.jpeg", device = "jpg", type = "cairo", dpi = 600, width = 3.5, height = 3, units = "in")
+
+
+##BY SAMPLING TIME POINT (Trial 1 only)
+
+#GN spoilage by sampling time point and plant day 14
+GNFreq_PlantTimepointD14T1 <-  pc_summary %>% 
+  filter(Day == 14) %>% 
+  filter(Trial == 1) %>% 
+  group_by(Plant, BME, GNspoilage) %>% 
+  summarise(n = length(GNspoilage)) %>%
+  ungroup() %>% 
+  complete(Plant, BME, GNspoilage) %>% 
+  mutate(n = replace_na(n, 0)) %>% 
+  group_by(Plant, BME) %>% 
+  mutate(freq = 100*(n / sum(n))) %>% 
+  filter(GNspoilage == "Y")
+
+#order BME for plot
+GNFreq_PlantTimepointD14T1$BME <- factor(GNFreq_PlantTimepointD14T1$BME, levels = c("B","M", "E"))
+  
+  
+#plot Trial 1 (BME), separated by plant
+ggplot(GNFreq_PlantTimepointD14T1, aes(BME)) +
+  geom_col(aes(y = freq)) +
+  facet_grid(~Plant) +
+  ylab("Gram-negative spoilage frequency (%)") +
+  ylim(0,100) +
+  xlab("Sampling Time Point") +
+  labs(fill = "Plant", title = "(c)") +
+  facet_grid(~Plant) +
+  theme(plot.title = element_text(size=14, face="bold")) + 
+  scale_fill_manual(values = wes_palette("Darjeeling1")) +
+  guides(fill=guide_legend(title="Facility"))
+
+#ggsave("TimepointGNfreq063023.jpeg", device = "jpg", type = "cairo", dpi = 600, height = 3, width = 3.5, units = "in")
+
+
+##BY LANE FOR TRIAL 2
+GNFreq_PlantLaneD14T2 <- pc_summary %>%
+  filter(Trial == 2) %>% 
+  filter(Day == 14) %>% 
+  group_by(Plant, BME_Rep, GNspoilage) %>% 
+  summarise(n = length(GNspoilage)) %>% 
+  mutate(n = replace_na(n, 0)) %>% 
+  mutate(freq = 100*(n / sum(n))) %>% 
+  filter(GNspoilage == "Y")
+
+
+ggplot(GNFreq_PlantLaneD14T2, aes(BME_Rep)) +
+  geom_col(aes(y = freq)) +
+  facet_grid(~Plant) +
+  ylab("Gram-negative spoilage frequency (%)") +
+  ylim(0,100) +
+  xlab("Lane Number") +
+  labs(title = "(d)") +
+  #scale_x_discrete(limits = rev) +
+  theme(plot.title = element_text(size=14, face="bold")) + 
+  scale_fill_manual(values = wes_palette("Darjeeling1"))
+
+
+#ggsave("LaneGNfreq063023.jpeg", device = "jpg", type = "cairo", dpi = 600, height = 3, width = 3.5, units = "in")
+```
+
+
+###PPC vs Downtime
+```{r}
+#Filter out day 14 GN spoilage
+GNfreq_PlantTrialD14 <- pc_summary %>%
+  filter(Day == 14) %>% 
+  group_by(Plant, Trial, GNspoilage) %>% 
+  summarise(n = length(GNspoilage)) %>% 
+  ungroup() %>% 
+  group_by(Plant, Trial) %>% 
+  mutate(freq = 100*(n / sum(n))) %>% 
+  rename("n_samples" = "n") %>% 
+  filter(GNspoilage == "Y") %>% 
+  mutate(Plant = as.factor(Plant))
+
+#Sum down time by plant and trial
+downtime <- rawdata %>% 
+  drop_na(DownTime) %>% 
+  group_by(Plant, Trial) %>% 
+  summarise(n_downtimes = sum(DownTime_n)) %>% 
+  mutate(Plant = as.factor(Plant))
+
+#Sum down time by plant, trial, General Down Time (Filler, non-Filler)
+downtimegen <- rawdata %>% 
+  drop_na(DownTime) %>% 
+  group_by(Plant, Trial, GenDownTime) %>% 
+  summarise(n_downtimes = sum(DownTime_n))
+
+# Join GNspoilage and Downtime Tables
+downtimeGN <- merge(GNfreq_PlantTrialD14, downtime)
+
+downtimegenGN <- merge(GNfreq_PlantTrialD14, downtimegen) 
+
+#Plot GNspoilage vs Downtime total
+ggplot(downtimeGN, aes(freq)) +
+  geom_point(aes(y = n_downtimes, shape = factor(Trial), colour = factor(Plant), size = 1)) +
+  labs(title = "(a)", colour = "Plant", shape = "Trial") +
+  ylab("Number of Occurences") +
+  ylim(0,30) +
+  xlim(0, 100) +
+  xlab("Gram-negative Spoilage Frequency (%)") +
+  theme(plot.title = element_text(size=14, face="bold")) +
+  guides(colour = guide_legend("Facility"), shape = guide_legend("Sampling Visit"), size = FALSE) 
+
+#ggsave("DownTimeAll063023.jpeg", device = "jpg", type = "cairo", dpi = 600)
+
+#Plot GNspoilage vs General Down Time
+ggplot(downtimegenGN, aes(freq)) +
+  geom_point(aes(y = n_downtimes, shape = factor(Trial), colour = factor(Plant), size = 4)) +
+  facet_grid(~GenDownTime) +
+  labs(title = "(b)") +
+  ylab("Number of Occurences") +
+  ylim(0,30) +
+  xlim(0, 100) +
+  xlab("Gram-negative Spoilage Frequency (%)") +
+  theme(plot.title = element_text(size=14, face="bold")) +
+  guides(colour = guide_legend("Facility"), shape = guide_legend("Sampling Visit"), size = FALSE) 
+
+#ggsave("DownTimeGen063023.jpeg", device = "jpg", type = "cairo", dpi = 600)
+``` 

@@ -1,0 +1,99 @@
+---
+title: "VSLsingleserve_Code"
+author: "Tim L"
+date: '2023-03-14'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+###Load Packages
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+```
+
+
+```{r}
+#read in data
+VSL <- read.csv("VSLsingleserve_Data.csv", na.strings = c("", "NA"))
+```
+
+#filter out data for plants that made core and single serve
+```{r}
+#filter out plants that only submitted both core and single-serve
+VSLplant <- VSL %>% 
+  group_by(plantName) %>% 
+  filter(all(c('Core', 'Single Serve') %in% product)) %>% 
+  filter(size != "qt")
+  
+length(unique(VSLplant$plantName))
+
+list(VSLplant$size)
+
+#multiply values below detection limit by 0.25 to give 25% of detection limit
+VSLadj <- VSLplant %>% 
+  mutate(greaterThanLessThan = ifelse(is.na(greaterThanLessThan), "=", greaterThanLessThan)) %>%
+  mutate(SPC=ifelse(greaterThanLessThan=="<",SPC*0.25,SPC), na.rm = TRUE) %>% 
+  mutate(SPC = log10(SPC))
+```
+
+#Descriptive stats
+```{r}
+#descriptive statistics
+#group by core vs single serve
+VSLmeanSPC <- VSLadj %>% 
+  group_by(size) %>% 
+  summarise(sd = sd(SPC), SPC = mean(SPC))
+
+VSLmedianSPC <- VSLadj %>% 
+  group_by(size) %>% 
+  summarise(SPC = median(SPC))
+
+VSLmeanFlavor <- VSLadj %>% 
+  group_by(size) %>% 
+  summarise(sd = sd (flavorScore), flavorScore = mean(flavorScore))
+
+VSLmedianFlavor <- VSLadj %>% 
+  group_by(size) %>% 
+  summarise(flavorScore = median(flavorScore))
+```
+
+#Plots
+```{r}
+#plot VSL results
+ggplot(VSLadj, aes(x = size, y = SPC, fill = size)) +
+  geom_boxplot() +
+  xlab("Volume") + ylab(expression(~~Log[10]~~ CFU/mL)) +
+  theme(plot.title = element_text(face = "bold", size = 12), axis.text = element_text(size = 10)) +
+  ggtitle("(a)") +
+  guides(fill = FALSE) +
+  scale_fill_manual(values=c("#0072B2", "#E69F00"))
+
+#ggsave("VSLSPC061923.jpeg", device = "jpg", type = "cairo", dpi = 600)
+
+#plot flavor scores
+ggplot(VSLadj, aes(x = size, y = flavorScore, fill = size)) +
+  geom_boxplot() +
+  xlab("Volume") + ylab("Sensory Score") +
+  theme(plot.title = element_text(face = "bold", size = 12), axis.text = element_text(size = 10)) +
+  ggtitle("(b)") +
+  guides(fill = FALSE) +
+  scale_fill_manual(values=c("#0072B2", "#E69F00")) +
+  ylim(0, 10)
+
+#ggsave("VSLsensory061923.jpeg", device = "jpg", type = "cairo", dpi = 600)
+```
+
+#Wilcoxon rank sum
+```{r}
+wilcox.test(SPC ~ size, data = VSLadj, exact = FALSE, alternative = "less")
+
+wilcox.test(flavorScore ~ size, data = VSLadj, exact = FALSE, alternative = "greater")
+```
+
+

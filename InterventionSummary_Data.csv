@@ -1,0 +1,816 @@
+PlantNumber,ProcessingDate,TimePoint,CodeDate,Lane,Treatment,MilkType,APC,CVTA
+3,,,,,,control,BDL,BDL
+3,,,,,,platercontrol,BDL,BDL
+2,,,,,,control,BDL,BDL
+2,,,,,,platercontrol,BDL,BDL
+4,,,,,,control,BDL,BDL
+4,,,,,,platercontrol,BDL,
+1,,,,,,control,BDL,BDL
+1,,,,,,platercontrol,BDL,
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,4.30E+04,1.02E+02
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,8.18E+01,BDL
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,1.23E+02,2.04E+01
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,1.96E+03,BDL
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,5.92E+04,TNTC
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,5.94E+03,5.81E+03
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,1.35E+04,7.62E+03
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,2.04E+02,BDL
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,2.66E+02,BDL
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,1.74E+03,2.25E+03
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,1.84E+02,BDL
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,9.50E+03,6.63E+03
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,5.64E+04,1.08E+05
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,5.52E+02,3.27E+02
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,8.58E+02,8.99E+02
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,7.15E+02,1.74E+03
+1,4/7/2022,Beginning,4/21/2022,1,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,6.13E+01
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,8.18E+01
+1,4/7/2022,Beginning,4/21/2022,2,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,2.66E+03,1.23E+03
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,1.47E+03,6.13E+02
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,8.39E+03,5.76E+03
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,3.47E+03,2.27E+03
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,1.31E+03,7.77E+02
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,1.14E+03,8.18E+02
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,1.84E+02,1.43E+02
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,1.92E+03,1.37E+03
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,1.12E+03,7.15E+02
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,2.39E+03,1.64E+02
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,2.11E+03,2.04E+02
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,7.36E+02,BDL
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,3.07E+02,3.47E+02
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,1.23E+03,5.72E+02
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,2.25E+02,1.23E+02
+1,4/7/2022,Beginning,4/21/2022,3,Intervention,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,2.04E+01
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,1.02E+02
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,4.09E+01
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,6.13E+01
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,2.04E+01
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,BDL
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,4.09E+01
+1,4/7/2022,Beginning,4/21/2022,4,Control,Fat Free White,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,9.81E+02,4.09E+01
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,7.15E+02,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,4.70E+02,2.04E+01
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,1.02E+02,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,3.88E+02,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,5.72E+02,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,ERROR,2.04E+01
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,4.21E+03,1.64E+02
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,1.47E+03,4.09E+01
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,1.43E+02,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,3.86E+03,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,6.13E+02,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,5.86E+03,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,4.70E+02,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,2.80E+03,1.47E+03
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,1.31E+03,1.12E+03
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,3.07E+02,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,1.60E+04,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,1.12E+03,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,1.96E+03,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,1.51E+03,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,2.84E+03,BDL
+1,4/7/2022,End,4/21/2022,1,Control,1% Chocolate,2.49E+03,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,1.31E+03
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,6.34E+02
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,2.11E+03
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,6.13E+01
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,8.18E+01
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,2.04E+02
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,2.39E+04
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,4.09E+01
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,2,Intervention,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,1.64E+03,6.95E+02
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,1.74E+03,1.43E+02
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,1.68E+03,BDL
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,2.49E+03,BDL
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,1.84E+02,4.09E+01
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,2.53E+04,1.23E+02
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,1.84E+02,BDL
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,2.04E+02,6.13E+01
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,1.51E+04,1.24E+04
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,2.04E+02,2.04E+01
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,3.47E+02,BDL
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,1.23E+02,BDL
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,6.13E+01,BDL
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,1.14E+03,4.09E+01
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,4.09E+01,BDL
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,4.29E+02,8.18E+01
+1,4/7/2022,End,4/21/2022,3,Intervention,1% Chocolate,1.02E+02,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,2.04E+01
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,TNTC
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,2.04E+01
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,2.04E+01
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+1,4/7/2022,End,4/21/2022,4,Control,1% Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,1,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,1.50E+05
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,1.30E+03
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,2,Intervention,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,1.50E+03
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,3,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,4.20E+02
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,Beginning,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,3.40E+02
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,4.40E+04
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,TNTC
+3,4/13/2022,End,4/30/2022,4,Control,Fat Free Chocolate,TNTC,BDL
+3,,Beginning,,LINE,,Fat Free Chocolate,TNTC,2.00E+02
+3,,End,,LINE,,Fat Free Chocolate,TNTC,5.80E+02
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,1.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,2.80E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,2.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,1.80E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,2.40E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,2.80E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,6.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,1.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,8.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,1.60E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,1.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,2.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,1.80E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,TNTC,TNTC
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,2.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,TNTC,TNTC
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,6.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,1.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,4.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,2.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,1.80E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,1.60E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,6.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,6.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,1,Control,Fat Free White,2.00E+02,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,1.00E+05,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,1.10E+05,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,2.20E+03,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,1.70E+05,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,1.00E+05,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,1.10E+05,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,1,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,2.40E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,8.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,5.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,4.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,1.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,1.40E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,8.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,1.40E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,1.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,6.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,1.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,2.30E+03,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,6.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,1.40E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,1.60E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,8.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,5.20E+03,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,1.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,8.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,1.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,4.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,2.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,1.40E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,1.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,2,Control,Fat Free White,2.60E+02,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,5.00E+04,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,1.20E+04,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,1.60E+04,8.00E+01
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,2,Control,1% Chocolate,TNTC,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,1.80E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,1.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,3.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,8.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,8.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,2.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,1.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,2.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,8.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,1.60E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,6.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,1.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,8.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,8.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,6.60E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,1.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,3.60E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,1.40E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,3.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,1.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,2.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,1.70E+03,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,3.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,2.90E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,3,Intervention,Fat Free White,1.60E+02,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,1.20E+02
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,1.80E+02
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,3,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,6.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,8.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,1.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,TNTC,TNTC
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,4.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,1.60E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,4.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,1.20E+03,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,1.40E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,1.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,1.40E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,6.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,6.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,1.40E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,2.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,2.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,1.80E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,2.00E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,TNTC,TNTC
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,1.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,1.20E+02,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,8.00E+01,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,2.10E+03,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,1.40E+03,BDL
+2,4/15/2022,Beginning,5/2/2022,4,Intervention,Fat Free White,6.00E+01,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,2.90E+03
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,1.20E+02
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,1.20E+02
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,6.40E+02
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,4/15/2022,End,5/2/2022,4,Intervention,1% Chocolate,TNTC,BDL
+2,,Beginning,,LINE,,Fat Free White,1.00E+02,BDL
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,1,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,2.04E+01
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,1.08E+03
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,BDL
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,4.09E+02
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,BDL
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,2.04E+01
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,6.13E+01
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,4.09E+02
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,2.08E+03
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,2.04E+02
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,1.64E+02
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,BDL
+4,5/27/2022,Beginning,6/13/2022,2,Control,1% White,TNTC,2.04E+01
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,ERROR,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,3.68E+02,1.17E+03
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,3,Control,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,3.47E+02
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,6.13E+01
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,BDL
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,BDL
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,6.13E+01
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,2.04E+02
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,1.02E+02
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,2.04E+02
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,TNTC
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,4.50E+02
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,BDL
+4,5/27/2022,Beginning,6/13/2022,4,Intervention,1% White,TNTC,4.09E+01
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,2.23E+03,2.04E+01
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,4.93E+03,4.91E+02
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,1,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,BDL
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,BDL
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,2.04E+01
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,BDL
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,BDL
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,6.13E+01
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,4.09E+01
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,8.18E+01
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,BDL
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,3.27E+02
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,2,Control,Fat Free Chocolate,TNTC,1.02E+03
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,7.56E+02,1.64E+02
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,1.02E+02,6.13E+01
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,5.72E+02
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,3.09E+03,8.18E+01
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,3,Control,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,2.04E+01
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,BDL
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,2.04E+01
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,BDL
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,2.04E+02
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,3.68E+02
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,2.04E+01
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,4.70E+02
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,BDL
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,TNTC
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,4.09E+01
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,BDL
+4,5/27/2022,End,6/13/2022,4,Intervention,Fat Free Chocolate,TNTC,BDL
+1,,Beginning,,LINE,,Fat Free White,2.45E+02,BDL
+1,,End,,LINE,,1% Chocolate,TNTC,TNTC
+4,,Beginning,,LINE,,1% White,4.46E+03,2.49E+03
+4,,End,,LINE,,Fat Free Chocolate,,
